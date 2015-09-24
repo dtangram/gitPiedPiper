@@ -1,0 +1,1132 @@
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0; }
+
+#header1, #header2 {
+  position: fixed;
+  top: 0;
+  float: left;
+  width: 100%;
+  padding: 1% 0; }
+
+#header1 {
+  z-index: 998;
+  background: rgba(102, 102, 102, 0.5);
+  -webkit-box-shadow: 0 15px 19px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 15px 19px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 7px 2px transparent; }
+
+#header2 {
+  z-index: 997; }
+
+.headChange {
+  opacity: 0;
+  background: #666666;
+  -webkit-box-shadow: 0 15px 19px 2px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0 15px 19px 2px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 5px 7px 2px rgba(0, 0, 0, 0.3); }
+
+.logos {
+  float: left;
+  width: 130px;
+  margin: 0 0 0 3%; }
+
+.top-bar {
+  width: 570px;
+  padding-top: 1%; }
+
+/*CSS SLIDING UNDERLINE*/
+ul li.currentLink a {
+  color: white !important;
+  display: inline-block;
+  position: relative;
+  height: 1px; }
+
+ul li.currentLink a:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0px;
+  background: black;
+  transition: width .5s ease, background-color .5s ease; }
+
+ul li.slideUnder a {
+  display: inline-block;
+  position: relative;
+  height: 1px !important; }
+
+.slideUnder:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0px;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease; }
+
+.slideUnder:hover:after {
+  width: 80%;
+  background: white; }
+
+/**/
+hr {
+  width: 300px;
+  height: 10px;
+  background: #0b492c;
+  border-color: #0b492c;
+  margin: 0 auto;
+  margin-bottom: 1%; }
+
+span {
+  color: #2f9e48;
+  font-size: 1em; }
+
+#home {
+  height: 900px;
+  overflow: hidden; }
+  #home #homeWrap {
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    float: left;
+    padding-top: 6%;
+    background-color: rgba(47, 158, 72, 0.4); }
+    #home #homeWrap #welcome div:nth-child(1) {
+      width: 100%; }
+    #home #homeWrap #welcome .panel {
+      position: relative;
+      width: 100%; }
+      #home #homeWrap #welcome .panel .intro {
+        padding-top: 6%; }
+        #home #homeWrap #welcome .panel .intro h1 {
+          width: 100%;
+          margin: 0 auto 1% auto;
+          font-family: "Lato", sans-serif;
+          text-shadow: 1px 0.5px 2px #0b492c;
+          color: white; }
+        #home #homeWrap #welcome .panel .intro hr {
+          margin-bottom: 1%; }
+        #home #homeWrap #welcome .panel .intro h2 {
+          font-size: 2.9em;
+          width: 100%;
+          height: 30px;
+          font-weight: bold;
+          margin: 0 auto 3% auto;
+          color: white;
+          font-family: "Lato", sans-serif; }
+        #home #homeWrap #welcome .panel .intro h3 {
+          font-size: 2.1em;
+          margin: 0 auto 1% auto;
+          width: 100%;
+          color: white;
+          font-weight: bold;
+          font-family: "Lato", sans-serif; }
+        #home #homeWrap #welcome .panel .intro :nth-child(5) {
+          margin-bottom: 3%; }
+        #home #homeWrap #welcome .panel .intro div {
+          margin: 0 auto;
+          text-align: center;
+          font-size: 2em;
+          width: 22%;
+          padding: 1%;
+          background-color: #0B492C;
+          border-radius: 8px;
+          -webkit-border-bottom-left-radius: 8px;
+          -webkit-border-top-left-radius: 8px;
+          border-bottom-left-radius: 8px;
+          border-top-left-radius: 8px;
+          cursor: pointer; }
+          #home #homeWrap #welcome .panel .intro div img {
+            width: 15%; }
+        #home #homeWrap #welcome .panel .intro div:hover {
+          background-color: #2F9E48; }
+      #home #homeWrap #welcome .panel .introChrome h1 {
+        width: 100%;
+        margin: 0 auto 1% auto;
+        font-family: "Lato", sans-serif;
+        text-shadow: 1px 0.5px 2px #0b492c;
+        color: white; }
+      #home #homeWrap #welcome .panel .introChrome h2 {
+        font-size: 2.7em;
+        width: 100%;
+        height: 30px;
+        float: left;
+        font-weight: bold;
+        margin: 0 auto 1% auto;
+        color: white;
+        font-family: "Lato", sans-serif; }
+      #home #homeWrap #welcome .panel .introChrome h3 {
+        font-size: 1.9em;
+        margin: 0 auto 3% auto;
+        width: 100%;
+        float: left;
+        color: white;
+        font-weight: bold;
+        font-family: "Lato", sans-serif; }
+      #home #homeWrap #welcome .panel .introChrome hr {
+        margin-bottom: 2%; }
+      #home #homeWrap #welcome .panel .introChrome ul {
+        margin: 0 auto;
+        padding-left: 5%;
+        width: 50%;
+        font-size: 1.5em;
+        font-weight: bold; }
+  #home #bck {
+    position: fixed;
+    z-index: -1;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: .4; }
+    #home #bck #bckRotate {
+      margin: 0; }
+      #home #bck #bckRotate p:nth-child(1) {
+        color: white !important;
+        text-align: center;
+        left: 0;
+        right: 0;
+        margin: 20% auto 0 auto; }
+      #home #bck #bckRotate p:nth-child(1) {
+        position: absolute;
+        z-index: 3; }
+      #home #bck #bckRotate p:nth-child(2) {
+        opacity: 0;
+        position: absolute;
+        z-index: 3; }
+      #home #bck #bckRotate li {
+        display: none;
+        position: absolute;
+        z-index: 1; }
+      #home #bck #bckRotate li.previous {
+        display: block;
+        z-index: 1; }
+      #home #bck #bckRotate li.current {
+        display: block;
+        z-index: 2; }
+  #home #bckChrome {
+    display: none;
+    min-height: 100%;
+    min-width: 1900px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -9999; }
+    #home #bckChrome #bckRotateChrome {
+      margin: 0; }
+      #home #bckChrome #bckRotateChrome li {
+        display: none;
+        position: absolute;
+        z-index: 1; }
+      #home #bckChrome #bckRotateChrome li.previousChrome {
+        display: block;
+        z-index: 1; }
+      #home #bckChrome #bckRotateChrome li.currentChrome {
+        display: block;
+        z-index: 2; }
+
+#homeVideo {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+  background-color: #000000;
+  width: 100%;
+  height: 900px;
+  left: 0;
+  top: 0; }
+  #homeVideo img {
+    width: 30%;
+    cursor: pointer; }
+
+#closeBTN {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+  width: 5%;
+  float: right;
+  margin-top: 1%;
+  right: 1%;
+  cursor: pointer; }
+
+#video {
+  background: url(../img/tech.jpg) no-repeat;
+  background-color: #2f9e48;
+  height: 500px;
+  padding-top: .5%;
+  border-bottom: 4px solid white;
+  border-top: 7px solid #0b492c; }
+  #video .row {
+    max-width: 100%; }
+  #video ul {
+    margin: 0; }
+  #video #videoWrap {
+    opacity: 0; }
+    #video #videoWrap h1 {
+      color: white;
+      margin-bottom: 1%; }
+    #video #videoWrap h2 {
+      font-size: 2em;
+      color: white;
+      font-family: "Lato", sans-serif; }
+    #video #videoWrap div {
+      text-align: center;
+      width: 500px;
+      margin: 0 auto; }
+      #video #videoWrap div a {
+        width: 500px; }
+        #video #videoWrap div a img {
+          width: 100%;
+          height: 100%;
+          cursor: pointer; }
+
+#clients {
+  height: 950px;
+  padding-top: 9%; }
+  #clients h1 {
+    margin-bottom: 3%;
+    color: white; }
+  #clients hr {
+    margin-bottom: 2%; }
+  #clients p {
+    color: white;
+    font-size: 2.1em; }
+  #clients #clientInfo {
+    opacity: 0; }
+    #clients #clientInfo .panel {
+      padding: 0; }
+    #clients #clientInfo #clientLogos {
+      width: 100%;
+      overflow: hidden; }
+      #clients #clientInfo #clientLogos h2 {
+        color: white;
+        text-align: center;
+        margin-bottom: 3%;
+        text-shadow: 1px 0.5px black;
+        font-size: 2.6em; }
+      #clients #clientInfo #clientLogos h2::before {
+        margin-left: -50%;
+        right: .5em; }
+      #clients #clientInfo #clientLogos h2::after {
+        margin-right: -50%;
+        left: .5em; }
+      #clients #clientInfo #clientLogos h2::before, #clients #clientInfo #clientLogos h2::after {
+        border-bottom: 3px solid #0b492c;
+        content: "";
+        display: inline-block;
+        height: 0em;
+        position: relative;
+        vertical-align: middle;
+        width: 40%; }
+      #clients #clientInfo #clientLogos ul {
+        padding-left: 6% !important;
+        list-style: none; }
+        #clients #clientInfo #clientLogos ul li {
+          color: white;
+          font-size: 2em;
+          width: 100%; }
+          #clients #clientInfo #clientLogos ul li img {
+            width: 100%; }
+      #clients #clientInfo #clientLogos ul:nth-child(2) li {
+        width: 25%; }
+        #clients #clientInfo #clientLogos ul:nth-child(2) li img {
+          width: 100%; }
+
+.clientsBck {
+  background: url(../img/img11.jpg) no-repeat fixed 50% 50%/cover;
+  border-bottom: 3px solid #2f9e48; }
+
+.safClients {
+  background: url(../img/img11.jpg) no-repeat;
+  border-bottom: 3px solid #2f9e48; }
+
+.ieClients {
+  background: url(../img/img11.jpg) no-repeat fixed 50% 50%/cover;
+  border-bottom: 3px solid #2f9e48; }
+
+#quote {
+  background: #eeeeee;
+  border-bottom: 3px solid #2f9e48;
+  height: 500px;
+  padding-top: 8%; }
+  #quote h2 {
+    font-size: 2em;
+    color: black; }
+  #quote span {
+    color: #2f9e48;
+    font-size: .9em;
+    float: right;
+    margin-bottom: 3%; }
+
+#about {
+  padding-top: 9%;
+  height: 950px; }
+  #about #aboutWrap {
+    width: 80%; }
+    #about #aboutWrap h1 {
+      margin-bottom: 1%;
+      color: white !important;
+      text-shadow: 1px 0.5px 2px #0b492c; }
+    #about #aboutWrap hr {
+      margin-bottom: 3%; }
+
+.aboutBck {
+  background: url(../img/img8.jpg) no-repeat fixed 0% 0%/cover;
+  border-bottom: 3px solid #2f9e48; }
+
+.safAbout {
+  background: url(../img/img8.jpg) no-repeat;
+  border-bottom: 3px solid #2f9e48; }
+
+.ieAbout {
+  background: url(../img/img8.jpg) no-repeat fixed 0% 0%/cover;
+  border-bottom: 3px solid #2f9e48; }
+
+#contact {
+  height: 495px;
+  border-top: 8px solid #2f9e48;
+  background-color: rgba(0, 0, 0, 0.7); }
+  #contact #conWrapper {
+    padding-top: 1%;
+    width: 100%; }
+    #contact #conWrapper .row {
+      max-width: 100%;
+      height: 100%; }
+      #contact #conWrapper .row h1 {
+        margin-bottom: 2%;
+        color: white !important; }
+      #contact #conWrapper .row hr {
+        margin-bottom: 5%; }
+    #contact #conWrapper h2 {
+      color: white;
+      font-size: 1.9em; }
+    #contact #conWrapper form {
+      width: 50%;
+      margin: 0 auto; }
+      #contact #conWrapper form label {
+        color: white; }
+
+.contactBck {
+  background: url(../img/rkBck.jpg) no-repeat fixed 50% 50%/cover; }
+
+.safContact {
+  background: url(../img/rkBck.jpg) no-repeat fixed; }
+
+.ieContact {
+  background: url(../img/rkBck.jpg) no-repeat fixed 50% 50%/cover; }
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+  .intro h1 {
+    width: 100%;
+    font-size: 3em !important;
+    margin: 0 auto 1% auto; }
+
+  .introChrome h1 {
+    width: 100%;
+    font-size: 8em !important;
+    margin: 0 auto 2% auto; }
+
+  #welcome {
+    font-size: .9em !important; }
+
+  #video {
+    background: url(../img/tech.jpg) no-repeat 50% 50%/cover;
+    height: 550px !important; }
+    #video #videoWrap {
+      opacity: 0; }
+
+  #clients {
+    padding: 12% 5% 0 5%; }
+    #clients h1 {
+      font-size: 3em !important; }
+
+  #about #aboutWrap {
+    padding-top: 3%; }
+    #about #aboutWrap h1 {
+      font-size: 3em !important;
+      text-shadow: 1px 0.5px 2px #0b492c; }
+
+  #contact {
+    height: 500px; }
+    #contact .row {
+      max-width: 100%; }
+      #contact .row #conWrapper {
+        width: 100%;
+        height: 100%;
+        padding-top: 8%; } }
+@media only screen and (min-width: 1060px) and (max-width: 1200px) {
+  .intro h1 {
+    width: 100%;
+    font-size: 3em !important; }
+
+  .introChrome h1 {
+    width: 100%;
+    font-size: 8em !important; }
+
+  #welcome {
+    font-size: .9em !important; }
+
+  #video {
+    background: url(../img/tech.jpg) no-repeat 50% 50%/cover;
+    height: 550px !important; }
+    #video #videoWrap {
+      opacity: 0;
+      margin-top: -1%; }
+
+  #clients {
+    padding: 12% 5% 0 5%; }
+    #clients h1 {
+      font-size: 3em !important; }
+
+  #about #aboutWrap {
+    padding-top: 4%; }
+    #about #aboutWrap h1 {
+      font-size: 3em !important;
+      text-shadow: 1px 0.5px 2px #0b492c; }
+
+  #contact {
+    height: 500px; }
+    #contact .row {
+      max-width: 100%; }
+      #contact .row #conWrapper {
+        width: 100%;
+        height: 100%;
+        padding-top: 8%; } }
+@media only screen and (min-width: 801px) and (max-width: 1059px) {
+  .intro h1 {
+    width: 100%;
+    font-size: 3em !important;
+    margin: 0 auto 2% auto; }
+
+  .introChrome h1 {
+    width: 100%;
+    font-size: 8em !important;
+    margin: 0 auto 2% auto; }
+
+  #welcome h1 {
+    font-size: 5.5em !important;
+    margin-bottom: 2%; }
+  #welcome h2 {
+    margin-bottom: 3% !important; }
+
+  #video {
+    background: url(../img/tech.jpg) no-repeat 50% 50%/cover;
+    height: 550px !important;
+    background-attachment: scroll; }
+    #video #videoWrap {
+      opacity: 0; }
+      #video #videoWrap h1 {
+        color: white;
+        margin-bottom: 2%;
+        font-size: 2.5em; }
+      #video #videoWrap hr {
+        width: 50%;
+        margin-bottom: 2%; }
+      #video #videoWrap h2 {
+        font-size: 2em;
+        color: white;
+        font-family: "Lato", sans-serif; }
+      #video #videoWrap div {
+        text-align: center;
+        width: 50%;
+        margin: 0 auto; }
+        #video #videoWrap div a {
+          width: 100%; }
+          #video #videoWrap div a img {
+            width: 100%;
+            height: 100%;
+            cursor: pointer; }
+
+  #clients {
+    padding: 13.5% 5% 0 5%; }
+    #clients h1 {
+      font-size: 2.5em !important; }
+    #clients #clientInfo h2 {
+      font-size: 2em !important; }
+    #clients #clientInfo li {
+      font-size: 1.7em !important; }
+
+  #about #aboutWrap {
+    padding-top: 7%; }
+    #about #aboutWrap h1 {
+      font-size: 3em !important;
+      text-shadow: 1px 0.5px 2px #0b492c; }
+
+  #contact {
+    height: 500px; }
+    #contact .row {
+      max-width: 100%; }
+      #contact .row #conWrapper {
+        width: 100%;
+        height: 100%;
+        padding-top: 8%; } }
+@media only screen and (min-width: 684px) and (max-width: 800px) {
+  .top-bar {
+    width: 450px;
+    font-size: 1em; }
+
+  .top-bar-section ul li {
+    margin-right: 1%; }
+
+  .top-bar-section ul li > a {
+    font-size: 1em; }
+
+  #headMenu li a {
+    height: 100% !important; }
+
+  #headMenu li a:after {
+    height: 100% !important; }
+
+  .slideUnder:after {
+    display: none; }
+
+  .intro h1 {
+    width: 100%;
+    font-size: 4em !important;
+    margin: 0 auto 2% auto; }
+
+  .introChrome h1 {
+    width: 100%;
+    font-size: 6em !important;
+    margin: 0 auto 2% auto; }
+
+  #welcome {
+    font-size: .8em !important;
+    padding-top: 8%; }
+
+  #video {
+    background: url(../img/tech.jpg) no-repeat 50% 50%/cover;
+    height: 550px !important;
+    background-attachment: scroll; }
+    #video #videoWrap {
+      opacity: 0; }
+      #video #videoWrap h1 {
+        color: white;
+        margin-bottom: 3%;
+        font-size: 2em; }
+      #video #videoWrap hr {
+        width: 50%;
+        margin-bottom: 3%; }
+      #video #videoWrap h2 {
+        font-size: 1.5em;
+        color: white;
+        font-family: "Lato", sans-serif; }
+      #video #videoWrap div {
+        text-align: center;
+        width: 50%;
+        margin: 0 auto; }
+        #video #videoWrap div a {
+          width: 100%; }
+          #video #videoWrap div a img {
+            width: 100%;
+            height: 100%;
+            cursor: pointer; }
+
+  #clients {
+    background: url(../img/img11.jpg) no-repeat fixed 50% 50%/cover;
+    height: 100%;
+    background-attachment: scroll;
+    padding: 17% 5% 0 5%; }
+    #clients h1 {
+      font-size: 2em !important; }
+    #clients #clientInfo h2 {
+      font-size: 1.8em !important;
+      line-height: 25px !important; }
+    #clients #clientInfo li {
+      font-size: 1.7em !important; }
+    #clients #clientInfo #clientLogos ul {
+      padding-left: 2% !important; }
+      #clients #clientInfo #clientLogos ul li {
+        width: 100%; }
+        #clients #clientInfo #clientLogos ul li img {
+          width: 100%; }
+    #clients #clientInfo #clientLogos ul:nth-child(2) li {
+      width: 20%; }
+      #clients #clientInfo #clientLogos ul:nth-child(2) li img {
+        width: 100%; }
+
+  #about #aboutWrap {
+    padding-top: 9%; }
+    #about #aboutWrap h1 {
+      font-size: 2.5em !important;
+      text-shadow: 1px 0.5px 2px #0b492c; }
+
+  #contact {
+    height: 500px; }
+    #contact .row {
+      max-width: 100%; }
+      #contact .row #conWrapper {
+        width: 100%;
+        height: 100%;
+        padding-top: 8%; } }
+@media only screen and (min-width: 501px) and (max-width: 684px) {
+  .top-bar {
+    width: 330px; }
+
+  .top-bar-section ul li {
+    margin-right: 0 !important;
+    width: 141px; }
+
+  .top-bar-section {
+    padding-bottom: 2% !important;
+    width: 330px; }
+
+  .top-bar-section ul li > a {
+    font-size: .7em;
+    padding: 0; }
+
+  .slideUnder:after {
+    display: none; }
+
+  .top-bar.expanded {
+    width: 160px;
+    padding-bottom: 3%; }
+
+  .top-bar.expanded .toggle-topbar a {
+    background: none !important; }
+
+  .title-area {
+    background: none !important; }
+
+  #home #homeWrap {
+    background-color: rgba(47, 158, 72, 0.4) !important; }
+    #home #homeWrap #welcome {
+      font-size: .7em !important;
+      padding-top: 15%; }
+      #home #homeWrap #welcome .intro h1 {
+        width: 100%;
+        font-size: 6em !important;
+        margin: 0 auto 2% auto; }
+      #home #homeWrap #welcome .intro #number {
+        text-shadow: 0.5px 0.5px black !important; }
+      #home #homeWrap #welcome .introChrome h1 {
+        width: 100%;
+        font-size: 6em !important;
+        margin: 0 auto 2% auto; }
+      #home #homeWrap #welcome .introChrome #number {
+        text-shadow: 0.5px 0.5px black !important; }
+    #home #homeWrap #bck #bckRotate {
+      display: none; }
+
+  #video {
+    background: url(../img/tech.jpg) no-repeat fixed 50% 50%/cover;
+    height: 570px;
+    background-attachment: scroll; }
+    #video #videoWrap {
+      opacity: 0; }
+      #video #videoWrap h1 {
+        color: white;
+        margin-bottom: 3%;
+        font-size: 1.5em; }
+      #video #videoWrap hr {
+        width: 50%;
+        margin-bottom: 3%; }
+      #video #videoWrap h2 {
+        font-size: 1.2em;
+        color: white;
+        font-family: "Lato", sans-serif; }
+      #video #videoWrap div {
+        text-align: center;
+        width: 50%;
+        margin: 0 auto; }
+        #video #videoWrap div a {
+          width: 100%; }
+          #video #videoWrap div a img {
+            width: 100%;
+            height: 100%;
+            cursor: pointer; }
+
+  #clients {
+    background: url(../img/img11.jpg) no-repeat fixed 50% 50%/cover;
+    height: 900px;
+    background-attachment: scroll;
+    padding: 22% 5% 0 5%; }
+    #clients h1 {
+      font-size: 1.7em !important;
+      margin-bottom: 3%; }
+    #clients hr {
+      width: 50%;
+      margin-bottom: 3%; }
+    #clients p {
+      text-align: center; }
+    #clients #clientInfo h2 {
+      font-size: 1.7em !important; }
+    #clients #clientInfo li {
+      font-size: 1.5em !important; }
+    #clients #clientInfo #clientLogos h2 {
+      color: #2f9e48;
+      text-shadow: 0px 0px; }
+    #clients #clientInfo #clientLogos ul {
+      padding-left: 0 !important;
+      list-style: none;
+      width: 15.5%; }
+      #clients #clientInfo #clientLogos ul li {
+        color: white;
+        font-size: 2em;
+        width: 100%; }
+        #clients #clientInfo #clientLogos ul li img {
+          width: 100%; }
+    #clients #clientInfo #clientLogos ul:nth-child(2) li {
+      width: 15%; }
+      #clients #clientInfo #clientLogos ul:nth-child(2) li img {
+        width: 100%; }
+
+  #about {
+    height: 560px; }
+    #about #aboutWrap {
+      padding-top: 14%; }
+      #about #aboutWrap h1 {
+        font-size: 1.8em !important;
+        text-shadow: 1px 0.5px 2px #0b492c; }
+
+  #contact .row {
+    max-width: 100%; }
+    #contact .row #conWrapper {
+      width: 100%;
+      height: 100%;
+      padding-top: 12%; }
+      #contact .row #conWrapper .panel {
+        width: 100%;
+        padding-bottom: 3%; }
+        #contact .row #conWrapper .panel p {
+          font-size: 1.3em; }
+        #contact .row #conWrapper .panel #conIcons {
+          font-size: 1em; }
+        #contact .row #conWrapper .panel p:nth-child(2) {
+          border: 0; } }
+@media only screen and (min-width: 321px) and (max-width: 500px) {
+  .top-bar {
+    width: 160px;
+    font-size: 1em;
+    padding: 0; }
+
+  .slideUnder:after {
+    display: none; }
+
+  .top-bar-section ul li > a {
+    font-size: .7em;
+    padding: 0; }
+
+  .top-bar.expanded {
+    width: 160px;
+    padding-bottom: 3%; }
+
+  .top-bar.expanded .toggle-topbar a {
+    background: none !important; }
+
+  .name, .title-area {
+    background: none !important; }
+
+  .intro h1 {
+    width: 100%;
+    font-size: 3em !important;
+    margin: 0 auto 2% auto !important; }
+  .intro h2, .intro h3 {
+    width: 100%;
+    font-size: 2.5em !important;
+    margin: 0 auto 4% auto !important; }
+  .intro hr {
+    margin-bottom: 2%;
+    width: 50%; }
+  .intro ul {
+    margin: 0 auto;
+    text-align: center;
+    width: 100% !important;
+    font-size: 1.8em !important;
+    font-weight: bold; }
+
+  .introChrome h1 {
+    width: 100%;
+    font-size: 3em !important;
+    margin: 0 auto 2% auto !important; }
+  .introChrome h2, .introChrome h3 {
+    width: 100%;
+    font-size: 2.5em !important;
+    margin: 0 auto 4% auto !important; }
+  .introChrome hr {
+    margin-bottom: 2%;
+    width: 50%; }
+  .introChrome ul {
+    margin: 0 auto;
+    text-align: center;
+    width: 100% !important;
+    font-size: 1.8em !important;
+    font-weight: bold; }
+
+  #welcome {
+    padding-top: 25%; }
+    #welcome h1 {
+      font-size: 5.3em !important; }
+    #welcome h2 {
+      font-size: 2.3em !important; }
+    #welcome h3 {
+      font-size: 1.7em !important; }
+    #welcome li {
+      font-size: .8em !important; }
+
+  #video {
+    background: url(../img/tech.jpg) no-repeat fixed 50% 50%/cover;
+    height: 500px;
+    background-attachment: scroll; }
+    #video #videoWrap {
+      opacity: 0; }
+      #video #videoWrap h1 {
+        color: white;
+        margin-bottom: 2%;
+        font-size: 1.5em; }
+      #video #videoWrap hr {
+        margin-bottom: 2%;
+        width: 50%; }
+      #video #videoWrap h2 {
+        font-size: 1.2em;
+        color: white;
+        font-family: "Lato", sans-serif; }
+      #video #videoWrap div {
+        text-align: center;
+        width: 90%;
+        margin: 0 auto; }
+        #video #videoWrap div a {
+          width: 100%; }
+          #video #videoWrap div a img {
+            width: 100%;
+            height: 100%;
+            cursor: pointer; }
+
+  #clients {
+    background: url(../img/img11.jpg) no-repeat fixed 50% 50%/cover;
+    height: 100%;
+    background-attachment: scroll;
+    padding: 22% 5% 0 5%; }
+    #clients h1 {
+      font-size: 1.7em !important;
+      margin-bottom: 3%; }
+    #clients hr {
+      width: 50%;
+      margin-bottom: 3%; }
+    #clients p {
+      font-size: 1.5em;
+      text-align: center; }
+    #clients #clientInfo h2 {
+      font-size: 1.5em !important;
+      line-height: 20px !important; }
+    #clients #clientInfo li {
+      font-size: 1.4em !important; }
+    #clients #clientInfo #clientLogos h2 {
+      color: #2f9e48;
+      text-shadow: 0px 0px; }
+    #clients #clientInfo #clientLogos ul {
+      padding-left: 0 !important;
+      list-style: none;
+      width: 13.5%; }
+      #clients #clientInfo #clientLogos ul li {
+        color: white;
+        font-size: 2em;
+        width: 100%; }
+        #clients #clientInfo #clientLogos ul li img {
+          width: 100%; }
+    #clients #clientInfo #clientLogos ul:nth-child(2) li {
+      width: 25%; }
+      #clients #clientInfo #clientLogos ul:nth-child(2) li img {
+        width: 100%; }
+
+  #quote {
+    background: #eeeeee;
+    border-bottom: 3px solid #2f9e48;
+    height: 350px;
+    padding-top: 8%; }
+    #quote h2 {
+      font-size: 1.5em;
+      color: black;
+      margin-bottom: 3%; }
+    #quote hr {
+      width: 50%; }
+    #quote span {
+      color: #2f9e48;
+      font-size: .7em;
+      float: none;
+      text-align: center; }
+
+  #about {
+    height: 500px; }
+    #about #aboutWrap {
+      padding-top: 27%; }
+      #about #aboutWrap .intro {
+        padding: 0; }
+      #about #aboutWrap h1 {
+        font-size: 3em !important;
+        text-shadow: 1px 0.5px 2px #0b492c; }
+
+  #contact .row {
+    max-width: 100%; }
+    #contact .row #conWrapper {
+      width: 100%;
+      height: 100%;
+      padding-top: 17%; }
+      #contact .row #conWrapper .panel {
+        width: 100%;
+        padding-bottom: 3%; }
+        #contact .row #conWrapper .panel p {
+          font-size: 1.3em; }
+        #contact .row #conWrapper .panel #conIcons {
+          font-size: 1em; }
+        #contact .row #conWrapper .panel p:nth-child(2) {
+          border: 0; } }
+@media only screen and (max-width: 320px) {
+  .top-bar {
+    width: 160px;
+    padding: 0; }
+
+  .slideUnder:after {
+    display: none; }
+
+  .top-bar-section ul li > a {
+    font-size: .7em;
+    padding-bottom: 1%; }
+
+  .top-bar.expanded {
+    width: 160px;
+    padding-bottom: 3%; }
+
+  .top-bar.expanded .toggle-topbar a {
+    background: none !important;
+    padding: 1% 3% 3% 3%;
+    margin-top: .5%;
+    width: 80px; }
+
+  .top-bar .toggle-topbar.menu-icon {
+    width: 95px; }
+
+  .name, .title-area {
+    background: none !important; }
+
+  #header1, #header2 {
+    padding: 3% 0; }
+
+  .logos {
+    width: 90px; }
+
+  #welcome {
+    padding-top: 25%; }
+    #welcome div .panel .row .intro h1 {
+      width: 100%;
+      font-size: 3em !important;
+      margin: 0 auto 3% auto !important; }
+    #welcome div .panel .row .intro h2, #welcome div .panel .row .intro h3 {
+      width: 100%;
+      font-size: 1.2em !important;
+      margin: 0 auto 3% auto !important;
+      line-height: 20px; }
+    #welcome div .panel .row .intro hr {
+      margin-bottom: 2%;
+      width: 100%; }
+    #welcome div .panel .row .intro ul {
+      margin: 0 auto;
+      text-align: center;
+      width: 100% !important;
+      font-size: 1.2em !important;
+      font-weight: bold; }
+    #welcome div .panel .row .introChrome h1 {
+      width: 100%;
+      font-size: 2.5em !important;
+      margin: 0 auto 3% auto !important; }
+    #welcome div .panel .row .introChrome h2, #welcome div .panel .row .introChrome h3 {
+      width: 100%;
+      font-size: 1.2em !important;
+      margin: 0 auto 3% auto !important; }
+    #welcome div .panel .row .introChrome hr {
+      margin-bottom: 2%;
+      width: 100%; }
+    #welcome div .panel .row .introChrome ul {
+      margin: 0 auto;
+      text-align: center;
+      width: 100% !important;
+      font-size: 1.2em !important;
+      font-weight: bold; }
+
+  #video {
+    height: 490px;
+    padding-bottom: 20%; }
+    #video #videoWrap {
+      opacity: 0; }
+      #video #videoWrap h1 {
+        color: white;
+        margin-bottom: 2%;
+        font-size: 1.5em; }
+      #video #videoWrap hr {
+        margin-bottom: 2%;
+        width: 50%; }
+      #video #videoWrap h2 {
+        font-size: 1.2em;
+        color: white;
+        font-family: "Lato", sans-serif; }
+      #video #videoWrap div {
+        text-align: center;
+        width: 90%;
+        margin: 0 auto; }
+        #video #videoWrap div a {
+          width: 100%; }
+          #video #videoWrap div a img {
+            width: 100%;
+            height: 100%;
+            cursor: pointer; }
+
+  #clients {
+    background: url(../img/img11.jpg) no-repeat fixed 50% 50%/cover;
+    height: 830px;
+    background-attachment: scroll;
+    padding: 24% 5% 0 5%; }
+    #clients h1 {
+      font-size: 1.6em !important; }
+    #clients hr {
+      width: 50%;
+      margin-bottom: 3%; }
+    #clients p {
+      text-align: center;
+      font-size: 1.5em; }
+    #clients #clientInfo h2 {
+      font-size: 1.5em !important;
+      line-height: 20px !important; }
+    #clients #clientInfo li {
+      font-size: 1.3em !important; }
+    #clients #clientInfo #clientLogos h2 {
+      color: #2f9e48;
+      text-shadow: 0px 0px; }
+    #clients #clientInfo #clientLogos ul {
+      padding-left: 0 !important;
+      list-style: none;
+      width: 13%; }
+      #clients #clientInfo #clientLogos ul li {
+        color: white;
+        font-size: 2em;
+        width: 100%; }
+        #clients #clientInfo #clientLogos ul li img {
+          width: 100%; }
+    #clients #clientInfo #clientLogos ul:nth-child(2) li {
+      width: 25%; }
+      #clients #clientInfo #clientLogos ul:nth-child(2) li img {
+        width: 100%; }
+
+  #about {
+    height: 500px; }
+    #about #aboutWrap {
+      padding-top: 30%; }
+      #about #aboutWrap h1 {
+        font-size: 3em !important;
+        text-shadow: 1px 0.5px 2px #0b492c; }
+
+  #contact .row {
+    max-width: 100%; }
+    #contact .row #conWrapper {
+      width: 100%;
+      height: 100%;
+      padding-top: 19%; }
+      #contact .row #conWrapper .panel {
+        width: 100%;
+        padding-bottom: 3%; }
+        #contact .row #conWrapper .panel p {
+          font-size: 1.2em; }
+        #contact .row #conWrapper .panel #conIcons {
+          font-size: .9em; }
+        #contact .row #conWrapper .panel p:nth-child(2) {
+          border: 0; } }
