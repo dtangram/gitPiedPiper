@@ -385,49 +385,25 @@ span {
     font-size: 5em; }
   #clients hr {
     margin-bottom: 3%; }
-  #clients p {
-    color: white;
-    font-size: 2.1em; }
   #clients #clientInfo {
     opacity: 0; }
     #clients #clientInfo .panel {
       padding: 0; }
-    #clients #clientInfo #clientLogos {
-      width: 100%;
-      overflow: hidden; }
-      #clients #clientInfo #clientLogos h2 {
-        color: white;
-        text-align: center;
+      #clients #clientInfo .panel div h2 {
+        font-size: 2em;
+        margin-bottom: 3.5%; }
+      #clients #clientInfo .panel div hr {
         margin-bottom: 3%;
-        text-shadow: 1px 0.5px black;
-        font-size: 2.6em; }
-      #clients #clientInfo #clientLogos h2::before {
-        margin-left: -50%;
-        right: .5em; }
-      #clients #clientInfo #clientLogos h2::after {
-        margin-right: -50%;
-        left: .5em; }
-      #clients #clientInfo #clientLogos h2::before, #clients #clientInfo #clientLogos h2::after {
-        border-bottom: 3px solid #0b492c;
-        content: "";
-        display: inline-block;
-        height: 0em;
-        position: relative;
-        vertical-align: middle;
-        width: 40%; }
-      #clients #clientInfo #clientLogos ul {
-        padding-left: 6% !important;
-        list-style: none; }
-        #clients #clientInfo #clientLogos ul li {
-          color: white;
-          font-size: 2em;
-          width: 100%; }
-          #clients #clientInfo #clientLogos ul li img {
-            width: 100%; }
-      #clients #clientInfo #clientLogos ul:nth-child(2) li {
-        width: 25%; }
-        #clients #clientInfo #clientLogos ul:nth-child(2) li img {
-          width: 100%; }
+        width: 100%;
+        height: 2px; }
+      #clients #clientInfo .panel div p {
+        font-size: 1.3em; }
+      #clients #clientInfo .panel div:nth-child(1) {
+        margin-bottom: 4%; }
+        #clients #clientInfo .panel div:nth-child(1) h2 {
+          margin-bottom: 1.5%; }
+        #clients #clientInfo .panel div:nth-child(1) hr {
+          margin-bottom: 2%; }
 
 .clientsBck {
   background: url(../img/img11.jpg) no-repeat fixed 50% 50%/cover;

@@ -655,12 +655,6 @@ span
 		margin-bottom: 3%;
 	}
 	
-	p
-	{
-		color: $piperColor2;
-		font-size: 2.1em;
-	}
-	
 	#clientInfo
 	{
 		opacity: 0;
@@ -668,73 +662,40 @@ span
 		.panel
 		{
 			padding: 0;
-		}
-		
-		#clientLogos
-		{
-			width: $fullWH;
-			overflow: hidden;
 			
-			h2
+			div
 			{
-				color: $piperColor2;
-				text-align: center;
-				margin-bottom: 3%;
-				text-shadow: 1px .5px $piperColor1;
-				font-size: 2.6em;
-			}
-			
-			h2::before
-			{
-				margin-left: -50%;
-    			right: .5em;
-			}
-			
-			h2::after
-			{
-				margin-right: -50%;
-    			left: .5em;
-			}
-			
-			h2::before, h2::after
-			{
-				border-bottom: 3px solid $piperColor3;
-				content: "";
-				display: inline-block;
-				height: 0em;
-				position: relative;
-				vertical-align: middle;
-				width: 40%;
-			}
-			
-			ul
-			{
-				padding-left: 6% !important;
-				list-style: none;
-				
-				li
+				h2
 				{
-					color: $piperColor2;
 					font-size: 2em;
+					margin-bottom: 3.5%;
+				}
+				
+				hr
+				{
+					margin-bottom: 3%;
 					width: $fullWH;
-					
-					img
-					{
-						width: $fullWH;
-					}					
+					height: 2px;
+				}
+				
+				p
+				{
+					font-size: 1.3em;
 				}
 			}
 			
-			ul:nth-child(2)
+			div:nth-child(1)
 			{
-				li
+				margin-bottom: 4%;
+				
+				h2
 				{
-					width: 25%;
-					
-					img
-					{
-						width: $fullWH;
-					}
+					margin-bottom: 1.5%;
+				}
+				
+				hr
+				{
+					margin-bottom: 2%;
 				}
 			}
 		}
