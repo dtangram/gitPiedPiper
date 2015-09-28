@@ -98,17 +98,17 @@ span {
     #home #homeWrap #welcome .panel {
       position: relative;
       width: 100%; }
-      #home #homeWrap #welcome .panel .intro {
+      #home #homeWrap #welcome .panel .row .intro {
         padding-top: 6%; }
-        #home #homeWrap #welcome .panel .intro h1 {
+        #home #homeWrap #welcome .panel .row .intro h1 {
           width: 100%;
           margin: 0 auto 1% auto;
           font-family: "Lato", sans-serif;
           text-shadow: 1px 0.5px 2px #0b492c;
           color: white; }
-        #home #homeWrap #welcome .panel .intro hr {
+        #home #homeWrap #welcome .panel .row .intro hr {
           margin-bottom: 1%; }
-        #home #homeWrap #welcome .panel .intro h2 {
+        #home #homeWrap #welcome .panel .row .intro h2 {
           font-size: 2.9em;
           width: 100%;
           height: 30px;
@@ -116,63 +116,128 @@ span {
           margin: 0 auto 3% auto;
           color: white;
           font-family: "Lato", sans-serif; }
-        #home #homeWrap #welcome .panel .intro h3 {
+        #home #homeWrap #welcome .panel .row .intro h3 {
           font-size: 2.1em;
           margin: 0 auto 1% auto;
           width: 100%;
           color: white;
           font-weight: bold;
           font-family: "Lato", sans-serif; }
-        #home #homeWrap #welcome .panel .intro :nth-child(5) {
+        #home #homeWrap #welcome .panel .row .intro :nth-child(5) {
           margin-bottom: 3%; }
-        #home #homeWrap #welcome .panel .intro div {
-          margin: 0 auto;
+        #home #homeWrap #welcome .panel .row .intro div {
+          margin: 0 auto 5% auto;
           text-align: center;
           font-size: 2em;
           width: 22%;
           padding: 1%;
-          background-color: #0B492C;
+          background-color: #0b492c;
           border-radius: 8px;
           -webkit-border-bottom-left-radius: 8px;
           -webkit-border-top-left-radius: 8px;
           border-bottom-left-radius: 8px;
           border-top-left-radius: 8px;
           cursor: pointer; }
-          #home #homeWrap #welcome .panel .intro div img {
+          #home #homeWrap #welcome .panel .row .intro div img {
             width: 15%; }
-        #home #homeWrap #welcome .panel .intro div:hover {
-          background-color: #2F9E48; }
-      #home #homeWrap #welcome .panel .introChrome h1 {
+        #home #homeWrap #welcome .panel .row .intro div:hover {
+          background-color: #2f9e48; }
+        #home #homeWrap #welcome .panel .row .intro #circles {
+          list-style: none;
+          margin: 0 auto;
+          width: 22%;
+          padding-left: 8%; }
+          #home #homeWrap #welcome .panel .row .intro #circles li:hover {
+            background: #0b492c; }
+          #home #homeWrap #welcome .panel .row .intro #circles li {
+            margin: 0 auto;
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            border: solid 2px white;
+            background: transparent;
+            float: left;
+            cursor: pointer; }
+          #home #homeWrap #welcome .panel .row .intro #circles li:nth-child(1), #home #homeWrap #welcome .panel .row .intro #circles li:nth-child(2), #home #homeWrap #welcome .panel .row .intro #circles li:nth-child(3) {
+            margin-right: 5%; }
+          #home #homeWrap #welcome .panel .row .intro #circles .currentCir:hover {
+            border: none;
+            background: white; }
+          #home #homeWrap #welcome .panel .row .intro #circles .currentCir {
+            border: none;
+            background: white; }
+          #home #homeWrap #welcome .panel .row .intro #circles .previousCir {
+            border: solid 2px white;
+            background: transparent; }
+      #home #homeWrap #welcome .panel .row .introChrome h1 {
         width: 100%;
         margin: 0 auto 1% auto;
         font-family: "Lato", sans-serif;
         text-shadow: 1px 0.5px 2px #0b492c;
         color: white; }
-      #home #homeWrap #welcome .panel .introChrome h2 {
+      #home #homeWrap #welcome .panel .row .introChrome hr {
+        margin-bottom: 1%; }
+      #home #homeWrap #welcome .panel .row .introChrome h2 {
         font-size: 2.7em;
         width: 100%;
         height: 30px;
-        float: left;
         font-weight: bold;
-        margin: 0 auto 1% auto;
-        color: white;
-        font-family: "Lato", sans-serif; }
-      #home #homeWrap #welcome .panel .introChrome h3 {
-        font-size: 1.9em;
         margin: 0 auto 3% auto;
+        color: white;
+        font-family: "Lato", sans-serif; }
+      #home #homeWrap #welcome .panel .row .introChrome h3 {
+        font-size: 1.9em;
+        margin: 0 auto 1% auto;
         width: 100%;
-        float: left;
         color: white;
         font-weight: bold;
         font-family: "Lato", sans-serif; }
-      #home #homeWrap #welcome .panel .introChrome hr {
-        margin-bottom: 2%; }
-      #home #homeWrap #welcome .panel .introChrome ul {
+      #home #homeWrap #welcome .panel .row .introChrome :nth-child(5) {
+        margin-bottom: 3%; }
+      #home #homeWrap #welcome .panel .row .introChrome div {
+        margin: 0 auto 5% auto;
+        text-align: center;
+        font-size: 2em;
+        width: 22%;
+        padding: 1%;
+        background-color: #0b492c;
+        border-radius: 8px;
+        -webkit-border-bottom-left-radius: 8px;
+        -webkit-border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-top-left-radius: 8px;
+        cursor: pointer; }
+        #home #homeWrap #welcome .panel .row .introChrome div img {
+          width: 15%; }
+      #home #homeWrap #welcome .panel .row .introChrome div:hover {
+        background-color: #2f9e48; }
+      #home #homeWrap #welcome .panel .row .introChrome #circles {
+        list-style: none;
         margin: 0 auto;
-        padding-left: 5%;
-        width: 50%;
-        font-size: 1.5em;
-        font-weight: bold; }
+        width: 22%;
+        padding-left: 8%; }
+        #home #homeWrap #welcome .panel .row .introChrome #circles li:hover {
+          background: #0b492c; }
+        #home #homeWrap #welcome .panel .row .introChrome #circles li {
+          margin: 0 auto;
+          width: 20px;
+          height: 20px;
+          border-radius: 10px;
+          border: solid 2px white;
+          background: transparent;
+          float: left;
+          cursor: pointer; }
+        #home #homeWrap #welcome .panel .row .introChrome #circles li:nth-child(1), #home #homeWrap #welcome .panel .row .introChrome #circles li:nth-child(2), #home #homeWrap #welcome .panel .row .introChrome #circles li:nth-child(3) {
+          margin-right: 5%; }
+        #home #homeWrap #welcome .panel .row .introChrome #circles .currentCir:hover {
+          border: none;
+          background: white; }
+        #home #homeWrap #welcome .panel .row .introChrome #circles .currentCir {
+          border: none;
+          background: white; }
+        #home #homeWrap #welcome .panel .row .introChrome #circles .previousCir {
+          border: solid 2px white;
+          background: transparent; }
   #home #bck {
     position: fixed;
     z-index: -1;
@@ -250,36 +315,57 @@ span {
   right: 1%;
   cursor: pointer; }
 
-#video {
-  background: url(../img/tech.jpg) no-repeat;
+#companies {
   background-color: #2f9e48;
   height: 500px;
   padding-top: .5%;
   border-bottom: 4px solid white;
   border-top: 7px solid #0b492c; }
-  #video .row {
+  #companies .row {
     max-width: 100%; }
-  #video ul {
+  #companies ul {
     margin: 0; }
-  #video #videoWrap {
-    opacity: 0; }
-    #video #videoWrap h1 {
-      color: white;
-      margin-bottom: 1%; }
-    #video #videoWrap h2 {
-      font-size: 2em;
-      color: white;
-      font-family: "Lato", sans-serif; }
-    #video #videoWrap div {
-      text-align: center;
-      width: 500px;
+  #companies #compWrap {
+    opacity: 0;
+    margin: 0 auto !important; }
+    #companies #compWrap .panel {
+      width: 80%;
       margin: 0 auto; }
-      #video #videoWrap div a {
-        width: 500px; }
-        #video #videoWrap div a img {
-          width: 100%;
-          height: 100%;
-          cursor: pointer; }
+      #companies #compWrap .panel h1 {
+        color: white;
+        margin-bottom: 3%;
+        font-family: "Lato", sans-serif;
+        font-size: 5em; }
+      #companies #compWrap .panel hr {
+        margin-bottom: 3%; }
+      #companies #compWrap .panel div {
+        width: 100%;
+        margin: 0 auto !important;
+        text-align: center; }
+        #companies #compWrap .panel div ul {
+          float: left;
+          list-style: none;
+          width: 20%;
+          height: 1%;
+          position: relative; }
+          #companies #compWrap .panel div ul li {
+            text-align: center;
+            margin: 0 auto;
+            font-size: 1.5em;
+            letter-spacing: 2px; }
+            #companies #compWrap .panel div ul li img {
+              margin: 0 auto 5% auto !important;
+              height: 5%; }
+          #companies #compWrap .panel div ul li:nth-child(1), #companies #compWrap .panel div ul li:nth-child(2) {
+            cursor: pointer; }
+          #companies #compWrap .panel div ul li:nth-child(2) {
+            position: absolute;
+            z-index: -1;
+            text-align: center;
+            margin: 0 auto;
+            top: 0;
+            right: 0;
+            left: 0; }
 
 #clients {
   height: 950px;
@@ -406,15 +492,6 @@ span {
       margin: 0 auto; }
       #contact #conWrapper form label {
         color: white; }
-
-.contactBck {
-  background: url(../img/rkBck.jpg) no-repeat fixed 50% 50%/cover; }
-
-.safContact {
-  background: url(../img/rkBck.jpg) no-repeat fixed; }
-
-.ieContact {
-  background: url(../img/rkBck.jpg) no-repeat fixed 50% 50%/cover; }
 
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
   .intro h1 {

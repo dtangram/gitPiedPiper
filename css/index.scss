@@ -6,7 +6,7 @@ $piperColor2: #FFFFFF;
 $piperColor3: #0B492C;
 $piperColor4: #2F9E48;
 $piperColor5: #EEEEEE;
-$piperColor6: #73d878;
+$piperColor6: #DAECAF;
 $piperColor7: #888888;
 $piperColor8: #EEAB6B;
 $piperColor9: #666666;
@@ -162,125 +162,246 @@ span
 				position: relative;
 				width: $fullWH;
 				
-				.intro
+				.row
 				{
-					padding-top: 6%;
-					
-					h1
+					.intro
 					{
-						width: $fullWH;
-						margin: 0 auto 1% auto;
-						font-family: $piperFont2;
-						text-shadow: 1px .5px 2px $piperColor3;
-						color: $piperColor2;
-					}
-					
-					hr
-					{
-						margin-bottom: 1%;
-					}
-					
-					h2
-					{
-						font-size: 2.9em;
-						width: $fullWH;
-						height: 30px;
-						font-weight: $piperFontBold;
-						margin: 0 auto 3% auto;
-						color: $piperColor2;
-						font-family: $piperFont2;
-					}
+						padding-top: 6%;
 						
-					h3
-					{
-						font-size: 2.1em;
-						margin: 0 auto 1% auto;
-						width: $fullWH;
-						color: $piperColor2;
-						font-weight: $piperFontBold;
-						font-family: $piperFont2;
-					}
-					
-					:nth-child(5)
-					{
-						margin-bottom: 3%;
-					}
-					
-					div
-					{
-						margin: 0 auto;
-						text-align: center;
-						font-size: 2em;
-						width: 22%;
-						padding: 1%;
-						background-color: #0B492C;
-						border-radius: 8px;
-						-webkit-border-bottom-left-radius: 8px;
-						-webkit-border-top-left-radius: 8px;
-						border-bottom-left-radius: 8px;
-						border-top-left-radius: 8px;
-						cursor: pointer;
-						
-						img
+						h1
 						{
-							width: 15%;
+							width: $fullWH;
+							margin: 0 auto 1% auto;
+							font-family: $piperFont2;
+							text-shadow: 1px .5px 2px $piperColor3;
+							color: $piperColor2;
+						}
+						
+						hr
+						{
+							margin-bottom: 1%;
+						}
+						
+						h2
+						{
+							font-size: 2.9em;
+							width: $fullWH;
+							height: 30px;
+							font-weight: $piperFontBold;
+							margin: 0 auto 3% auto;
+							color: $piperColor2;
+							font-family: $piperFont2;
+						}
+							
+						h3
+						{
+							font-size: 2.1em;
+							margin: 0 auto 1% auto;
+							width: $fullWH;
+							color: $piperColor2;
+							font-weight: $piperFontBold;
+							font-family: $piperFont2;
+						}
+						
+						:nth-child(5)
+						{
+							margin-bottom: 3%;
+						}
+						
+						div
+						{
+							margin: 0 auto 5% auto;
+							text-align: center;
+							font-size: 2em;
+							width: 22%;
+							padding: 1%;
+							background-color: $piperColor3;
+							border-radius: 8px;
+							-webkit-border-bottom-left-radius: 8px;
+							-webkit-border-top-left-radius: 8px;
+							border-bottom-left-radius: 8px;
+							border-top-left-radius: 8px;
+							cursor: pointer;
+							
+							img
+							{
+								width: 15%;
+							}
+						}
+						
+						div:hover
+						{
+							background-color: $piperColor4;
+						}
+						
+						#circles
+						{
+							list-style: none;
+							margin: 0 auto;
+							width: 22%;
+							padding-left: 8%;
+							
+							
+							li:hover
+							{
+								background: $piperColor3;
+							}
+							
+							li
+							{
+								margin: 0 auto;
+								width: 20px;
+								height: 20px;
+								border-radius: 10px;
+								border: solid 2px $piperColor2;
+								background: transparent;
+								float: $floatLeft;
+								cursor: pointer;
+							}
+							
+							li:nth-child(1), li:nth-child(2), li:nth-child(3)
+							{
+								margin-right: 5%;
+							}
+							
+							.currentCir:hover
+							{
+								border: none;
+								background: $piperColor2;
+							}
+							
+							.currentCir
+							{
+								border: none;
+								background: $piperColor2;
+							}
+							
+							.previousCir
+							{
+								border: solid 2px $piperColor2;
+								background: transparent;
+							}
 						}
 					}
 					
-					div:hover
+					.introChrome
 					{
-						background-color: #2F9E48;
-					}
-				}
-				
-				.introChrome
-				{
-					h1
-					{
-						width: $fullWH;
-						margin: 0 auto 1% auto;
-						font-family: $piperFont2;
-						text-shadow: 1px .5px 2px $piperColor3;
-						color: $piperColor2;
-					}
-					
-					h2
-					{
-						font-size: 2.7em;
-						width: $fullWH;
-						height: 30px;
-						float: $floatLeft;
-						font-weight: $piperFontBold;
-						margin: 0 auto 1% auto;
-						color: $piperColor2;
-						font-family: $piperFont2;
-					}
+						h1
+						{
+							width: $fullWH;
+							margin: 0 auto 1% auto;
+							font-family: $piperFont2;
+							text-shadow: 1px .5px 2px $piperColor3;
+							color: $piperColor2;
+						}
 						
-					h3
-					{
-						font-size: 1.9em;
-						margin: 0 auto 3% auto;
-						width: $fullWH;
-						float: $floatLeft;
-						color: $piperColor2;
-						font-weight: $piperFontBold;
-						font-family: $piperFont2;
+						hr
+						{
+							margin-bottom: 1%;
+						}
+						
+						h2
+						{
+							font-size: 2.7em;
+							width: $fullWH;
+							height: 30px;
+							font-weight: $piperFontBold;
+							margin: 0 auto 3% auto;
+							color: $piperColor2;
+							font-family: $piperFont2;
+						}
+							
+						h3
+						{
+							font-size: 1.9em;
+							margin: 0 auto 1% auto;
+							width: $fullWH;
+							color: $piperColor2;
+							font-weight: $piperFontBold;
+							font-family: $piperFont2;
+						}
+						
+						:nth-child(5)
+						{
+							margin-bottom: 3%;
+						}
+						
+						div
+						{
+							margin: 0 auto 5% auto;
+							text-align: center;
+							font-size: 2em;
+							width: 22%;
+							padding: 1%;
+							background-color: $piperColor3;
+							border-radius: 8px;
+							-webkit-border-bottom-left-radius: 8px;
+							-webkit-border-top-left-radius: 8px;
+							border-bottom-left-radius: 8px;
+							border-top-left-radius: 8px;
+							cursor: pointer;
+							
+							img
+							{
+								width: 15%;
+							}
+						}
+						
+						div:hover
+						{
+							background-color: $piperColor4;
+						}
+						
+						#circles
+						{
+							list-style: none;
+							margin: 0 auto;
+							width: 22%;
+							padding-left: 8%;
+							
+							
+							li:hover
+							{
+								background: $piperColor3;
+							}
+							
+							li
+							{
+								margin: 0 auto;
+								width: 20px;
+								height: 20px;
+								border-radius: 10px;
+								border: solid 2px $piperColor2;
+								background: transparent;
+								float: $floatLeft;
+								cursor: pointer;
+							}
+							
+							li:nth-child(1), li:nth-child(2), li:nth-child(3)
+							{
+								margin-right: 5%;
+							}
+							
+							.currentCir:hover
+							{
+								border: none;
+								background: $piperColor2;
+							}
+							
+							.currentCir
+							{
+								border: none;
+								background: $piperColor2;
+							}
+							
+							.previousCir
+							{
+								border: solid 2px $piperColor2;
+								background: transparent;
+							}
+						}
 					}
-					
-					hr
-					{
-						margin-bottom: 2%;
-					}
-					
-					ul
-					{
-						margin: 0 auto;
-						padding-left: 5%;
-						width: 50%;
-						font-size: 1.5em;
-						font-weight: $piperFontBold;
-					}
-				}
+				}				
 			}
 		}
 	}
@@ -409,9 +530,8 @@ span
 	cursor: pointer;
 }
 
-#video
+#companies
 {
-	background: url(../img/tech.jpg) no-repeat;
 	background-color: $piperColor4;
 	height: 500px;
 	padding-top: .5%;
@@ -428,38 +548,72 @@ span
 		margin: 0;
 	}
 	
-	#videoWrap
+	#compWrap
 	{
 		opacity: 0;
-	
-		h1
-		{
-			color: $piperColor2;
-			margin-bottom: 1%;
-		}
+		margin: 0 auto !important;
 		
-		h2
+		.panel
 		{
-			font-size: 2em;
-			color: $piperColor2;
-			font-family: $piperFont2;
-		}
-		
-		div
-		{
-			text-align: center;
-			width: 500px;
+			width: 80%;
 			margin: 0 auto;
 			
-			a
+			h1
 			{
-				width: 500px;
+				color: $piperColor2;
+				margin-bottom: 3%;
+				font-family: $piperFont2;
+				font-size: 5em;
+			}
+			
+			hr
+			{
+				margin-bottom: 3%;
+			}
+			
+			div
+			{
+				width: $fullWH;
+				margin: 0 auto !important;
+				text-align: center;
 				
-				img
+				ul
 				{
-					width: $fullWH;
-					height: $fullWH;
-					cursor: pointer;
+					float: $floatLeft;
+					list-style: none;
+					width: 20%;
+					height: 1%;
+					position: relative;
+					
+					li
+					{
+						text-align: center;
+						margin: 0 auto;
+						font-size: 1.5em;
+						letter-spacing: 2px;
+						
+						img
+						{
+							margin: 0 auto 5% auto !important;
+							height: 5%;
+						}
+					}
+					
+					li:nth-child(1), li:nth-child(2)
+					{
+						cursor: pointer;
+					}
+					
+					li:nth-child(2)
+					{
+						position: absolute;
+						z-index: -1;
+						text-align: center;
+						margin: 0 auto;
+						top: 0;
+						right: 0;
+						left: 0;
+					}
 				}
 			}
 		}
@@ -694,21 +848,6 @@ span
 			}
 		}
 	}
-}
-
-.contactBck
-{
-	background: url(../img/rkBck.jpg) no-repeat fixed 50% 50% / cover;
-}
-
-.safContact
-{
-	background: url(../img/rkBck.jpg) no-repeat fixed;
-}
-
-.ieContact
-{
-	background: url(../img/rkBck.jpg) no-repeat fixed 50% 50% / cover;
 }
 
 
