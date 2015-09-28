@@ -126,8 +126,7 @@ hr
 	height: 10px;
 	background: $piperColor3;
 	border-color: $piperColor3;
-	margin: 0 auto;
-	margin-bottom: 1%;
+	margin: 0 auto 1%;
 }
 
 span
@@ -533,7 +532,7 @@ span
 #companies
 {
 	background-color: $piperColor4;
-	height: 500px;
+	height: 620px;
 	padding-top: .5%;
 	border-bottom: 4px solid $piperColor2;
 	border-top: 7px solid $piperColor3;
@@ -574,7 +573,7 @@ span
 			div
 			{
 				width: $fullWH;
-				margin: 0 auto !important;
+				margin: 0 auto 20% !important;
 				text-align: center;
 				
 				ul
@@ -616,6 +615,24 @@ span
 					}
 				}
 			}
+			
+			div
+			{
+				text-align: center;
+				
+				h2
+				{
+					font-size: 2.5em;
+					color: $piperColor1;
+					line-height: 50px;
+				}
+				
+				span
+				{
+					color: $piperColor3;
+					font-size: 2em;
+				}
+			}
 		}
 	}
 }
@@ -623,17 +640,19 @@ span
 #clients
 {
 	height: 950px;
-	padding-top: 9%;
+	padding-top: 8%;
 	
 	h1
 	{
-		margin-bottom: 3%;
+		margin-bottom: 2%;
 		color: $piperColor2;
+		font-family: $piperFont2;
+		font-size: 5em;
 	}
 	
 	hr
 	{
-		margin-bottom: 2%;
+		margin-bottom: 3%;
 	}
 	
 	p
@@ -747,19 +766,7 @@ span
 	height: 500px;
 	padding-top: 8%;
 	
-	h2
-	{
-		font-size: 2em;
-		color: $piperColor1;
-	}
 	
-	span
-	{
-		color: $piperColor4;
-		font-size: .9em;
-		float: right;
-		margin-bottom: 3%;
-	}
 }
 
 #about

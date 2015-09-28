@@ -76,8 +76,7 @@ hr {
   height: 10px;
   background: #0b492c;
   border-color: #0b492c;
-  margin: 0 auto;
-  margin-bottom: 1%; }
+  margin: 0 auto 1%; }
 
 span {
   color: #2f9e48;
@@ -317,7 +316,7 @@ span {
 
 #companies {
   background-color: #2f9e48;
-  height: 500px;
+  height: 620px;
   padding-top: .5%;
   border-bottom: 4px solid white;
   border-top: 7px solid #0b492c; }
@@ -340,7 +339,7 @@ span {
         margin-bottom: 3%; }
       #companies #compWrap .panel div {
         width: 100%;
-        margin: 0 auto !important;
+        margin: 0 auto 20% !important;
         text-align: center; }
         #companies #compWrap .panel div ul {
           float: left;
@@ -366,15 +365,26 @@ span {
             top: 0;
             right: 0;
             left: 0; }
+      #companies #compWrap .panel div {
+        text-align: center; }
+        #companies #compWrap .panel div h2 {
+          font-size: 2.5em;
+          color: black;
+          line-height: 50px; }
+        #companies #compWrap .panel div span {
+          color: #0b492c;
+          font-size: 2em; }
 
 #clients {
   height: 950px;
-  padding-top: 9%; }
+  padding-top: 8%; }
   #clients h1 {
-    margin-bottom: 3%;
-    color: white; }
+    margin-bottom: 2%;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 5em; }
   #clients hr {
-    margin-bottom: 2%; }
+    margin-bottom: 3%; }
   #clients p {
     color: white;
     font-size: 2.1em; }
@@ -436,14 +446,6 @@ span {
   border-bottom: 3px solid #2f9e48;
   height: 500px;
   padding-top: 8%; }
-  #quote h2 {
-    font-size: 2em;
-    color: black; }
-  #quote span {
-    color: #2f9e48;
-    font-size: .9em;
-    float: right;
-    margin-bottom: 3%; }
 
 #about {
   padding-top: 9%;
