@@ -59,6 +59,7 @@ var linkClients = $("#linkClients");
 var linkAbout = $("#linkAbout");
 var linkContact = $("#linkContact");
 var compWrap = $("#compWrap .panel div ul");
+var product = $("#product #prodWrap .panel div");
 
 $(document).ready(function()
 {
@@ -253,6 +254,18 @@ $(document).ready(function()
 	{
 		$(this).find("li:nth-child(1)").stop().animate({"opacity": "1"}, 200);
 		$(this).find("li:nth-child(2)").stop().animate({"z-index": "-1"}, 100);
+	});
+	
+	
+	
+	product.hover(function()
+	{
+		$(this).find("div").addClass("productHover");
+	},
+	
+	function()
+	{
+		$(this).find("div").removeClass("productHover");
 	});
 	
 	
