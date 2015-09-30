@@ -246,13 +246,13 @@ $(document).ready(function()
 	
 	compWrap.hover(function()
 	{
-		$(this).find("li:nth-child(1)").stop().animate({"opacity": "0"}, 200);
+		$(this).find("+ li").stop().animate({"opacity": "0"}, 200);
 		$(this).find("li:nth-child(2)").stop().animate({"z-index": "1"}, 100);
 	},
 	
 	function()
 	{
-		$(this).find("li:nth-child(1)").stop().animate({"opacity": "1"}, 200);
+		$(this).find("+ li").stop().animate({"opacity": "1"}, 200);
 		$(this).find("li:nth-child(2)").stop().animate({"z-index": "-1"}, 100);
 	});
 	
@@ -261,11 +261,13 @@ $(document).ready(function()
 	product.hover(function()
 	{
 		$(this).find("div").addClass("productHover");
+		$(this).find("div hr").css({"background": "#FFFFFF", "border-color": "#FFFFFF"});
 	},
 	
 	function()
 	{
 		$(this).find("div").removeClass("productHover");
+		$(this).find("div hr").css({"background": "#0B492C", "border-color": "#0B492C"});
 	});
 	
 	

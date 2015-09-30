@@ -580,9 +580,11 @@ span
 				{
 					float: $floatLeft;
 					list-style: none;
-					width: 20%;
+					width: 14%;
 					height: 1%;
 					position: relative;
+					margin-right: 7.5%;
+					cursor: pointer;
 					
 					li
 					{
@@ -590,16 +592,12 @@ span
 						margin: 0 auto;
 						font-size: 1.5em;
 						letter-spacing: 2px;
+						width: 150px;
 						
 						img
 						{
 							margin: 0 auto 5% auto !important;
 						}
-					}
-					
-					li:nth-child(1), li:nth-child(2)
-					{
-						cursor: pointer;
 					}
 					
 					li:nth-child(2)
@@ -612,6 +610,11 @@ span
 						right: 0;
 						left: 0;
 					}
+				}
+				
+				ul:last-child
+				{
+					margin-right: 0;
 				}
 			}
 			
@@ -750,10 +753,24 @@ span
 				div
 				{
 					border: 1px solid $piperColor3;
-					padding: 17% 10% !important;
+					padding: 7% 10% !important;
 					height: 300px;
 					margin-right: 6%;
 					cursor: pointer;
+					
+					div:first-child
+					{
+						width: 35%;
+						height: 40%;
+						border: none;
+						padding: 0 !important;
+						margin: 0 auto 5%;
+						
+						img
+						{
+							width: $fullWH;
+						}
+					}
 					
 					h2
 					{
@@ -789,6 +806,12 @@ span
 {
 	border: 4px solid $piperColor4;
 	background: rgba(47, 158, 72, .6);
+	
+	hr
+					{
+						background: $piperColor4;
+						border-color: $piperColor4;
+					}
 }
 
 #about
