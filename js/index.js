@@ -261,6 +261,7 @@ $(document).ready(function()
 	product.hover(function()
 	{
 		$(this).find("div").addClass("productHover");
+		$(this).find("div div").css("background", "none");
 		$(this).find("div hr").css({"background": "#FFFFFF", "border-color": "#FFFFFF"});
 	},
 	

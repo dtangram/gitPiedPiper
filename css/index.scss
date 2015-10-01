@@ -808,31 +808,65 @@ span
 	background: rgba(47, 158, 72, .6);
 	
 	hr
-					{
-						background: $piperColor4;
-						border-color: $piperColor4;
-					}
+	{
+		background: $piperColor4;
+		border-color: $piperColor4;
+	}
 }
 
 #about
 {
-	padding-top: 9%;
+	padding-top: 8%;
 	height: 950px;
 	
 	#aboutWrap
 	{
 		width: 80%;
 		
-		h1
+		div.row
 		{
-			margin-bottom: 1%;
-			color: $piperColor2 !important;
-			text-shadow: 1px .5px 2px $piperColor3;
-		}
+			.intro
+			{
+				h1
+				{
+					margin-bottom: 1%;
+					color: $piperColor2;
+					font-family: $piperFont2;
+					font-size: 5em;
+					text-shadow: 1px .5px 2px $piperColor3;
+				}
+			}
+		}		
 		
 		hr
 		{
 			margin-bottom: 3%;
+		}
+		
+		div
+		{
+			ul
+			{
+				list-style: none;
+				background-color: $piperColor4 !important;
+				width: $fullWH;
+				height: 30%;
+				float: $floatLeft;
+				margin-left: 0 !important;
+				padding-left: 2%;
+				
+				li
+				{
+					color: $piperColor1;
+					float: $floatLeft;
+					text-align: center !important;
+				}
+				
+				:first-child
+				{
+					text-transform: uppercase;
+				}
+			}
 		}
 	}	
 }

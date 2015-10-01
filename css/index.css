@@ -469,16 +469,32 @@ span {
     border-color: #2f9e48; }
 
 #about {
-  padding-top: 9%;
+  padding-top: 8%;
   height: 950px; }
   #about #aboutWrap {
     width: 80%; }
-    #about #aboutWrap h1 {
+    #about #aboutWrap div.row .intro h1 {
       margin-bottom: 1%;
-      color: white !important;
+      color: white;
+      font-family: "Lato", sans-serif;
+      font-size: 5em;
       text-shadow: 1px 0.5px 2px #0b492c; }
     #about #aboutWrap hr {
       margin-bottom: 3%; }
+    #about #aboutWrap div ul {
+      list-style: none;
+      background-color: #2f9e48 !important;
+      width: 100%;
+      height: 30%;
+      float: left;
+      margin-left: 0 !important;
+      padding-left: 2%; }
+      #about #aboutWrap div ul li {
+        color: black;
+        float: left;
+        text-align: center !important; }
+      #about #aboutWrap div ul :first-child {
+        text-transform: uppercase; }
 
 .aboutBck {
   background: url(../img/img8.jpg) no-repeat fixed 0% 0%/cover;
