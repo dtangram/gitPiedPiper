@@ -60,6 +60,10 @@ var linkAbout = $("#linkAbout");
 var linkContact = $("#linkContact");
 var compWrap = $("#compWrap .panel div ul");
 var product = $("#product #prodWrap .panel div");
+var titleOne = $("#about #aboutWrap div");
+var titleHR = $("#about #aboutWrap div ul hr");
+var titleTwo = $("#about #aboutWrap div ul li:last-child");
+var bio = $("#about #aboutWrap div > ul:last-child");
 
 $(document).ready(function()
 {
@@ -269,6 +273,17 @@ $(document).ready(function()
 	{
 		$(this).find("div").removeClass("productHover");
 		$(this).find("div hr").css({"background": "#0B492C", "border-color": "#0B492C"});
+	});
+	
+	
+	
+	titleHR.hide();
+	titleTwo.hide();
+	bio.hide();
+	titleOne.click(function()
+	{
+		$(this).find("ul li:first-child").next().slideToggle(300).next().slideToggle(300);
+		$(this).find("> ul:last-child").slideToggle(300);
 	});
 	
 	
