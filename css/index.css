@@ -129,7 +129,7 @@ span {
           text-align: center;
           font-size: 2em;
           width: 22%;
-          padding: 1%;
+          padding: 1% 1% 1% 0;
           background-color: #0b492c;
           border-radius: 8px;
           -webkit-border-bottom-left-radius: 8px;
@@ -138,7 +138,7 @@ span {
           border-top-left-radius: 8px;
           cursor: pointer; }
           #home #homeWrap #welcome .panel .row .intro div img {
-            width: 15%; }
+            width: 18%; }
         #home #homeWrap #welcome .panel .row .intro div:hover {
           background-color: #2f9e48; }
         #home #homeWrap #welcome .panel .row .intro #circles {

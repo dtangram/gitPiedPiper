@@ -81,7 +81,7 @@ $(document).ready(function()
 	
 	if (navigator.userAgent.indexOf('Chrome') != -1 || navigator.userAgent.indexOf('Safari') != -1)
 	{
-		$("#bck, .intro div, #circles").css("display", "none");
+		$("#bck").css("display", "none");
 		$("#bckChrome").css("display", "block");
 	}
 	
@@ -280,10 +280,16 @@ $(document).ready(function()
 	titleHR.hide();
 	titleTwo.hide();
 	bio.hide();
-	titleOne.click(function()
+	titleOne.hover(function()
 	{
 		$(this).find("ul li:first-child").next().slideToggle(300).next().slideToggle(300);
 		$(this).find("> ul:last-child").slideToggle(300);
+	});
+	
+	titleOne.mouseout(function()
+	{
+		$(this).find("ul li:first-child").next().hideToggle(300).next().hideToggle(300);
+		$(this).find("> ul:last-child").hideToggle(300);
 	});
 	
 	
@@ -302,7 +308,7 @@ $(document).ready(function()
 			
 			if (navigator.userAgent.indexOf('Chrome') != -1 || navigator.userAgent.indexOf('Safari') != -1)
 			{
-				$("#bck, .intro div, #circles").css("display", "none");
+				$("#bck").css("display", "none");
 			}
 		}
 		
