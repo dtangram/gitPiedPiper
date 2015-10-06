@@ -98,7 +98,8 @@ span {
       position: relative;
       width: 100%; }
       #home #homeWrap #welcome .panel .row .intro {
-        padding-top: 6%; }
+        padding-top: 6%;
+        text-align: center; }
         #home #homeWrap #welcome .panel .row .intro h1 {
           width: 100%;
           margin: 0 auto 1% auto;
@@ -127,7 +128,7 @@ span {
         #home #homeWrap #welcome .panel .row .intro div {
           margin: 0 auto 5% auto;
           text-align: center;
-          font-size: 2em;
+          font-size: 1.6em;
           width: 22%;
           padding: 1% 1% 1% 0;
           background-color: #0b492c;
@@ -138,18 +139,17 @@ span {
           border-top-left-radius: 8px;
           cursor: pointer; }
           #home #homeWrap #welcome .panel .row .intro div img {
-            width: 18%; }
+            width: 12%; }
         #home #homeWrap #welcome .panel .row .intro div:hover {
           background-color: #2f9e48; }
         #home #homeWrap #welcome .panel .row .intro #circles {
           list-style: none;
+          width: 97px;
           margin: 0 auto;
-          width: 22%;
-          padding-left: 8%; }
+          display: inline-block; }
           #home #homeWrap #welcome .panel .row .intro #circles li:hover {
-            background: #0b492c; }
+            background: #2f9e48; }
           #home #homeWrap #welcome .panel .row .intro #circles li {
-            margin: 0 auto;
             width: 20px;
             height: 20px;
             border-radius: 10px;
@@ -158,7 +158,7 @@ span {
             float: left;
             cursor: pointer; }
           #home #homeWrap #welcome .panel .row .intro #circles li:nth-child(1), #home #homeWrap #welcome .panel .row .intro #circles li:nth-child(2), #home #homeWrap #welcome .panel .row .intro #circles li:nth-child(3) {
-            margin-right: 5%; }
+            margin-right: 4.5%; }
           #home #homeWrap #welcome .panel .row .intro #circles .currentCir:hover {
             border: none;
             background: white; }
@@ -196,8 +196,8 @@ span {
       #home #homeWrap #welcome .panel .row .introChrome div {
         margin: 0 auto 5% auto;
         text-align: center;
-        font-size: 2em;
-        width: 22%;
+        font-size: 1.6em;
+        width: 20%;
         padding: 1%;
         background-color: #0b492c;
         border-radius: 8px;
@@ -207,7 +207,7 @@ span {
         border-top-left-radius: 8px;
         cursor: pointer; }
         #home #homeWrap #welcome .panel .row .introChrome div img {
-          width: 15%; }
+          width: 12%; }
       #home #homeWrap #welcome .panel .row .introChrome div:hover {
         background-color: #2f9e48; }
       #home #homeWrap #welcome .panel .row .introChrome #circles {
@@ -571,10 +571,8 @@ span {
         color: white; }
 
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
-  .intro h1 {
-    width: 100%;
-    font-size: 3em !important;
-    margin: 0 auto 1% auto; }
+  .intro div {
+    width: 24% !important; }
 
   .introChrome h1 {
     width: 100%;
@@ -610,9 +608,8 @@ span {
         height: 100%;
         padding-top: 8%; } }
 @media only screen and (min-width: 1060px) and (max-width: 1200px) {
-  .intro h1 {
-    width: 100%;
-    font-size: 3em !important; }
+  .intro div {
+    width: 26% !important; }
 
   .introChrome h1 {
     width: 100%;
@@ -648,21 +645,23 @@ span {
         height: 100%;
         padding-top: 8%; } }
 @media only screen and (min-width: 801px) and (max-width: 1059px) {
-  .intro h1 {
-    width: 100%;
-    font-size: 3em !important;
-    margin: 0 auto 2% auto; }
-
-  .introChrome h1 {
-    width: 100%;
-    font-size: 8em !important;
-    margin: 0 auto 2% auto; }
-
-  #welcome h1 {
-    font-size: 5.5em !important;
-    margin-bottom: 2%; }
-  #welcome h2 {
-    margin-bottom: 3% !important; }
+  #welcome {
+    padding-top: 8%; }
+    #welcome .intro h1 {
+      font-size: 6em !important;
+      margin-bottom: 2%; }
+    #welcome .intro h2 {
+      font-size: 2.5em !important; }
+    #welcome .intro h3 {
+      font-size: 2em !important;
+      line-height: 35px;
+      margin-bottom: 3% !important; }
+    #welcome .intro div {
+      width: 40% !important; }
+    #welcome .introChrome h1 {
+      width: 100%;
+      font-size: 8em !important;
+      margin: 0 auto 2% auto; }
 
   #video {
     background: url(../img/tech.jpg) no-repeat 50% 50%/cover;
@@ -735,19 +734,21 @@ span {
   .slideUnder:after {
     display: none; }
 
-  .intro h1 {
-    width: 100%;
-    font-size: 4em !important;
-    margin: 0 auto 2% auto; }
-
-  .introChrome h1 {
-    width: 100%;
-    font-size: 6em !important;
-    margin: 0 auto 2% auto; }
-
   #welcome {
-    font-size: .8em !important;
     padding-top: 8%; }
+    #welcome .intro h1 {
+      font-size: 8em !important;
+      margin-bottom: 2%; }
+    #welcome .intro h3 {
+      font-size: 2em !important;
+      line-height: 35px;
+      margin-bottom: 3% !important; }
+    #welcome .intro div {
+      width: 46% !important; }
+    #welcome .introChrome h1 {
+      width: 100%;
+      font-size: 8em !important;
+      margin: 0 auto 2% auto; }
 
   #video {
     background: url(../img/tech.jpg) no-repeat 50% 50%/cover;
@@ -849,17 +850,19 @@ span {
       font-size: .7em !important;
       padding-top: 15%; }
       #home #homeWrap #welcome .intro h1 {
-        width: 100%;
-        font-size: 6em !important;
-        margin: 0 auto 2% auto; }
-      #home #homeWrap #welcome .intro #number {
-        text-shadow: 0.5px 0.5px black !important; }
+        font-size: 8em !important;
+        margin-bottom: 2%; }
+      #home #homeWrap #welcome .intro h3 {
+        font-size: 2.5em !important;
+        line-height: 35px;
+        margin-bottom: 3% !important; }
+      #home #homeWrap #welcome .intro div {
+        width: 50% !important;
+        font-size: 2em !important; }
       #home #homeWrap #welcome .introChrome h1 {
         width: 100%;
-        font-size: 6em !important;
+        font-size: 8em !important;
         margin: 0 auto 2% auto; }
-      #home #homeWrap #welcome .introChrome #number {
-        text-shadow: 0.5px 0.5px black !important; }
     #home #homeWrap #bck #bckRotate {
       display: none; }
 
@@ -972,52 +975,24 @@ span {
   .name, .title-area {
     background: none !important; }
 
-  .intro h1 {
-    width: 100%;
-    font-size: 3em !important;
-    margin: 0 auto 2% auto !important; }
-  .intro h2, .intro h3 {
-    width: 100%;
-    font-size: 2.5em !important;
-    margin: 0 auto 4% auto !important; }
-  .intro hr {
-    margin-bottom: 2%;
-    width: 50%; }
-  .intro ul {
-    margin: 0 auto;
-    text-align: center;
-    width: 100% !important;
-    font-size: 1.8em !important;
-    font-weight: bold; }
-
-  .introChrome h1 {
-    width: 100%;
-    font-size: 3em !important;
-    margin: 0 auto 2% auto !important; }
-  .introChrome h2, .introChrome h3 {
-    width: 100%;
-    font-size: 2.5em !important;
-    margin: 0 auto 4% auto !important; }
-  .introChrome hr {
-    margin-bottom: 2%;
-    width: 50%; }
-  .introChrome ul {
-    margin: 0 auto;
-    text-align: center;
-    width: 100% !important;
-    font-size: 1.8em !important;
-    font-weight: bold; }
-
   #welcome {
     padding-top: 25%; }
-    #welcome h1 {
-      font-size: 5.3em !important; }
-    #welcome h2 {
-      font-size: 2.3em !important; }
-    #welcome h3 {
-      font-size: 1.7em !important; }
-    #welcome li {
-      font-size: .8em !important; }
+    #welcome .intro h1 {
+      font-size: 3.7em !important;
+      margin-bottom: 2%; }
+    #welcome .intro hr {
+      width: 80%; }
+    #welcome .intro h2 {
+      font-size: 1.8em !important; }
+    #welcome .intro h3 {
+      font-size: 1.4em !important;
+      line-height: 30px;
+      margin-bottom: 3% !important; }
+    #welcome .intro div {
+      width: 100% !important; }
+    #welcome .introChrome h1 {
+      font-size: 3.7em !important;
+      margin: 0 auto 2% auto; }
 
   #video {
     background: url(../img/tech.jpg) no-repeat fixed 50% 50%/cover;
@@ -1163,40 +1138,22 @@ span {
   #welcome {
     padding-top: 25%; }
     #welcome div .panel .row .intro h1 {
-      width: 100%;
       font-size: 3em !important;
-      margin: 0 auto 3% auto !important; }
-    #welcome div .panel .row .intro h2, #welcome div .panel .row .intro h3 {
-      width: 100%;
-      font-size: 1.2em !important;
-      margin: 0 auto 3% auto !important;
-      line-height: 20px; }
+      margin-bottom: 2%; }
     #welcome div .panel .row .intro hr {
-      margin-bottom: 2%;
-      width: 100%; }
-    #welcome div .panel .row .intro ul {
-      margin: 0 auto;
-      text-align: center;
-      width: 100% !important;
-      font-size: 1.2em !important;
-      font-weight: bold; }
+      width: 80%; }
+    #welcome div .panel .row .intro h2 {
+      font-size: 1.6em !important; }
+    #welcome div .panel .row .intro h3 {
+      font-size: 1.3em !important;
+      line-height: 30px;
+      margin-bottom: 3% !important; }
+    #welcome div .panel .row .intro div {
+      width: 100% !important; }
     #welcome div .panel .row .introChrome h1 {
       width: 100%;
-      font-size: 2.5em !important;
-      margin: 0 auto 3% auto !important; }
-    #welcome div .panel .row .introChrome h2, #welcome div .panel .row .introChrome h3 {
-      width: 100%;
-      font-size: 1.2em !important;
-      margin: 0 auto 3% auto !important; }
-    #welcome div .panel .row .introChrome hr {
-      margin-bottom: 2%;
-      width: 100%; }
-    #welcome div .panel .row .introChrome ul {
-      margin: 0 auto;
-      text-align: center;
-      width: 100% !important;
-      font-size: 1.2em !important;
-      font-weight: bold; }
+      font-size: 8em !important;
+      margin: 0 auto 2% auto; }
 
   #video {
     height: 490px;

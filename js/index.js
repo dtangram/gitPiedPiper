@@ -282,9 +282,10 @@ $(document).ready(function()
 	bio.hide();
 	titleOne.hover(function()
 	{
-		$(this).find("ul li:first-child").next().slideToggle(300).next().slideToggle(300);
+		$(this).find("ul li:first-child").next().slideToggle(300).next().slideToggle(300);		
 		$(this).find("> ul:last-child").slideToggle(300);
 	});
+	
 	
 	titleOne.mouseout(function()
 	{
