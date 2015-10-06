@@ -579,10 +579,9 @@ span
 				{
 					float: $floatLeft;
 					list-style: none;
-					width: 14%;
 					height: 1%;
 					position: relative;
-					margin-right: 7.5%;
+					margin-right: 4%;
 					cursor: pointer;
 					
 					li
@@ -591,12 +590,6 @@ span
 						margin: 0 auto;
 						font-size: 1.5em;
 						letter-spacing: 2px;
-						width: 150px;
-						
-						img
-						{
-							margin: 0 auto 5% auto !important;
-						}
 					}
 					
 					li:nth-child(2)
@@ -608,6 +601,8 @@ span
 						top: 0;
 						right: 0;
 						left: 0;
+						padding-left: 0.615em;
+						padding-right: 0.62em;
 					}
 				}
 				

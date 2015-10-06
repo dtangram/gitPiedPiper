@@ -344,19 +344,15 @@ span {
         #companies #compWrap .panel div ul {
           float: left;
           list-style: none;
-          width: 14%;
           height: 1%;
           position: relative;
-          margin-right: 7.5%;
+          margin-right: 4%;
           cursor: pointer; }
           #companies #compWrap .panel div ul li {
             text-align: center;
             margin: 0 auto;
             font-size: 1.5em;
-            letter-spacing: 2px;
-            width: 150px; }
-            #companies #compWrap .panel div ul li img {
-              margin: 0 auto 5% auto !important; }
+            letter-spacing: 2px; }
           #companies #compWrap .panel div ul li:nth-child(2) {
             position: absolute;
             z-index: -1;
@@ -364,7 +360,9 @@ span {
             margin: 0 auto;
             top: 0;
             right: 0;
-            left: 0; }
+            left: 0;
+            padding-left: 0.615em;
+            padding-right: 0.62em; }
         #companies #compWrap .panel div ul:last-child {
           margin-right: 0; }
       #companies #compWrap .panel div {
