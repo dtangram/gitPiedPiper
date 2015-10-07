@@ -53,7 +53,7 @@ $decorateUnder: underline;
 .headChange
 {
 	opacity: 0;
-	background: #666666;
+	background: $piperColor9;
 	-webkit-box-shadow: 0 15px 19px 2px rgba(0, 0, 0, 0.70);
 	-moz-box-shadow: 0 15px 19px 2px rgba(0, 0, 0, 0.70);
 	box-shadow: 0 5px 7px 2px rgba(0, 0, 0, 0.3);
@@ -602,7 +602,7 @@ span
 						right: 0;
 						left: 0;
 						padding-left: 0.615em;
-						padding-right: 0.62em;
+						padding-right: 0.615em;
 					}
 				}
 				
@@ -953,7 +953,7 @@ span
 {
 	height: 495px;
 	border-top: 8px solid $piperColor4;
-	background-color: rgba(0, 0, 0, .7);
+	background-color: $piperColor9;
 		
 	#conWrapper
 	{
@@ -1036,6 +1036,35 @@ span
 		}
 	}
 	
+	#companies
+	{		
+		#compWrap
+		{
+			.panel
+			{
+				h1
+				{
+					font-size: 4.5em;
+				}
+				
+				div
+				{
+					margin: 0 auto 25% !important;
+				}
+				
+				div
+				{
+					text-align: center;
+					
+					h2
+					{
+						font-size: 2em;
+					}
+				}
+			}
+		}
+	}
+	
 	#clients
 	{
 		padding: 12% 5% 0 5%;
@@ -1112,6 +1141,42 @@ span
 		{
 			opacity: 0;
 			margin-top: -1%;
+		}
+	}
+	
+	#companies
+	{		
+		#compWrap
+		{
+			padding-top: 4%;
+			.panel
+			{
+				h1
+				{
+					font-size: 4em;
+					margin-bottom: 5%;
+				}
+				
+				hr
+				{
+					margin-bottom: 5%;
+				}
+				
+				div
+				{
+					margin: 0 auto 25% !important;
+				}
+				
+				div
+				{
+					text-align: center;
+					
+					h2
+					{
+						font-size: 2em;
+					}
+				}
+			}
 		}
 	}	
 	
@@ -1246,6 +1311,59 @@ span
 						width: $fullWH;
 						height: $fullWH;
 						cursor: pointer;
+					}
+				}
+			}
+		}
+	}
+	
+	#companies
+	{		
+		#compWrap
+		{
+			padding-top: 5%;
+			
+			.panel
+			{
+				h1
+				{
+					font-size: 3.2em;
+					margin-bottom: 5%;
+				}
+				
+				hr
+				{
+					margin-bottom: 5%;
+				}
+				
+				div
+				{
+					margin: 0 auto 25% !important;
+					
+					ul
+					{
+						text-align: center;
+						
+						li
+						{
+							font-size: 1em !important;
+						}
+						
+						li:nth-child(2)
+						{
+							padding-left: 0.93em;
+							padding-right: 0.93em;
+						}
+					}
+				}
+				
+				div
+				{
+					text-align: center;
+					
+					h2
+					{
+						font-size: 1.8em;
 					}
 				}
 			}
@@ -1421,6 +1539,59 @@ span
 						width: $fullWH;
 						height: $fullWH;
 						cursor: pointer;
+					}
+				}
+			}
+		}
+	}
+	
+	#companies
+	{		
+		#compWrap
+		{
+			padding-top: 5%;
+			
+			.panel
+			{
+				h1
+				{
+					font-size: 2.8em;
+					margin-bottom: 5%;
+				}
+				
+				hr
+				{
+					margin-bottom: 5%;
+				}
+				
+				div
+				{
+					margin: 0 auto 25% !important;
+					
+					ul
+					{
+						text-align: center;
+						cursor: default;
+						
+						li
+						{
+							font-size: .7em !important;
+						}
+						
+						li:nth-child(2)
+						{
+							display: none;
+						}
+					}
+				}
+				
+				div
+				{
+					text-align: center;
+					
+					h2
+					{
+						font-size: 1.6em;
 					}
 				}
 			}
@@ -1669,6 +1840,61 @@ span
 		}
 	}
 	
+	#companies
+	{		
+		#compWrap
+		{
+			padding-top: 3%;
+			
+			.panel
+			{
+				width: $fullWH !important;
+				
+				h1
+				{
+					font-size: 2.8em;
+					margin-bottom: 5%;
+				}
+				
+				hr
+				{
+					margin-bottom: 5%;
+				}
+				
+				div
+				{
+					margin: 0 auto 25% !important;
+					
+					ul
+					{
+						text-align: center;
+						cursor: default;
+						
+						li
+						{
+							font-size: .7em !important;
+						}
+						
+						li:nth-child(2)
+						{
+							display: none;
+						}
+					}
+				}
+				
+				div
+				{
+					text-align: center;
+					
+					h2
+					{
+						font-size: 1.8em;
+					}
+				}
+			}
+		}
+	}
+	
 	#clients
 	{
 		background: url(../img/img11.jpg) no-repeat fixed 50% 50% / cover;
@@ -1795,6 +2021,72 @@ span
 					p:nth-child(2)
 					{
 						border: 0;				
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 40em)
+{
+	#companies
+	{		
+		#compWrap
+		{
+			padding-top: 10%;
+			
+			.panel
+			{
+				width: $fullWH !important;
+				
+				h1
+				{
+					font-size: 2.8em;
+					margin-bottom: 5%;
+				}
+				
+				hr
+				{
+					margin-bottom: 5%;
+				}
+				
+				div
+				{
+					margin: 0 auto 25% !important;
+					
+					ul
+					{
+						text-align: center;
+						cursor: default;
+						float: $floatLeft;
+						width: 16%;
+						
+						li
+						{
+							font-size: .7em !important;
+							text-align: center !important;
+							
+							img
+							{
+								display: inline-block !important;
+								width: $fullWH;
+							}
+						}
+						
+						li:nth-child(2)
+						{
+							display: none;
+						}
+					}
+				}
+				
+				div:last-child
+				{
+					h2
+					{
+						font-size: 1.5em;
+						line-height: 35px;
 					}
 				}
 			}
@@ -1929,6 +2221,84 @@ span
 						height: $fullWH;
 						cursor: pointer;
 					}
+				}
+			}
+		}
+	}
+	
+	#companies
+	{		
+		#compWrap
+		{
+			padding-top: 0;
+			
+			.panel
+			{
+				width: $fullWH !important;
+				
+				h1
+				{
+					font-size: 2.1em;
+					margin-bottom: 5%;
+				}
+				
+				hr
+				{
+					margin-bottom: 5%;
+					width: 80%;
+				}
+				
+				div
+				{
+					margin: 0 auto 25% !important;
+					
+					ul
+					{
+						text-align: center;
+						cursor: default;
+						margin-bottom: 5%;
+						float: none;
+						width: 40%;
+						padding-left: 3% !important;
+						
+						li
+						{
+							font-size: 1em !important;
+							text-align: center !important;
+							
+							img
+							{
+								display: inline-block !important;
+								width: $fullWH;
+							}
+						}
+						
+						li:nth-child(2)
+						{
+							display: none;
+						}
+					}
+					
+					ul:nth-child(1), ul:nth-child(2), ul:nth-child(3), ul:nth-child(4)
+					{
+						float: $floatLeft;
+						margin-right: 0;
+					}
+					
+					ul:nth-child(odd)
+					{
+						margin-left: 10%;
+					}
+					
+					ul:nth-child(4)
+					{
+						margin-left: 0;
+					}
+				}
+				
+				div:last-child
+				{
+					display: none;
 				}
 			}
 		}
@@ -2255,6 +2625,84 @@ span
 						height: $fullWH;
 						cursor: pointer;
 					}
+				}
+			}
+		}
+	}
+	
+	#companies
+	{		
+		#compWrap
+		{
+			padding-top: 6%;
+			
+			.panel
+			{
+				width: $fullWH !important;
+				
+				h1
+				{
+					font-size: 2.1em;
+					margin-bottom: 5%;
+				}
+				
+				hr
+				{
+					margin-bottom: 5%;
+					width: 80%;
+				}
+				
+				div
+				{
+					margin: 0 auto 25% !important;
+					
+					ul
+					{
+						text-align: center;
+						cursor: default;
+						margin-bottom: 5%;
+						float: none;
+						width: 40%;
+						padding-left: 3% !important;
+						
+						li
+						{
+							font-size: 1em !important;
+							text-align: center !important;
+							
+							img
+							{
+								display: inline-block !important;
+								width: $fullWH;
+							}
+						}
+						
+						li:nth-child(2)
+						{
+							display: none;
+						}
+					}
+					
+					ul:nth-child(1), ul:nth-child(2), ul:nth-child(3), ul:nth-child(4)
+					{
+						float: $floatLeft;
+						margin-right: 0;
+					}
+					
+					ul:nth-child(odd)
+					{
+						margin-left: 10%;
+					}
+					
+					ul:nth-child(4)
+					{
+						margin-left: 0;
+					}
+				}
+				
+				div:last-child
+				{
+					display: none;
 				}
 			}
 		}
