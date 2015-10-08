@@ -1065,7 +1065,29 @@ span {
             display: none; }
       #companies #compWrap .panel div:last-child h2 {
         font-size: 1.5em;
-        line-height: 35px; } }
+        line-height: 35px; }
+
+  #clients {
+    height: 950px;
+    padding-top: 20%; }
+    #clients .row div h1 {
+      font-size: 2.8em !important; }
+    #clients hr {
+      margin-bottom: 3%;
+      width: 60%; }
+    #clients #clientInfo .panel {
+      padding: 0; }
+      #clients #clientInfo .panel div {
+        margin-bottom: 2% !important; }
+        #clients #clientInfo .panel div h2 {
+          margin-bottom: 2.5%;
+          line-height: 35px; }
+        #clients #clientInfo .panel div hr {
+          margin-bottom: 2%; }
+        #clients #clientInfo .panel div p {
+          text-align: center; }
+      #clients #clientInfo .panel div:nth-child(2), #clients #clientInfo .panel div:nth-child(5) {
+        display: none; } }
 @media only screen and (min-width: 321px) and (max-width: 500px) {
   .top-bar {
     width: 160px;
@@ -1089,24 +1111,37 @@ span {
   .name, .title-area {
     background: none !important; }
 
+  #home {
+    height: 780px; }
+
   #welcome {
-    padding-top: 25%; }
-    #welcome .intro h1 {
-      font-size: 3.7em !important;
-      margin-bottom: 2%; }
-    #welcome .intro hr {
-      width: 80%; }
-    #welcome .intro h2 {
-      font-size: 1.8em !important; }
-    #welcome .intro h3 {
-      font-size: 1.4em !important;
-      line-height: 30px;
-      margin-bottom: 3% !important; }
-    #welcome .intro div {
-      width: 100% !important; }
-    #welcome .introChrome h1 {
-      font-size: 3.7em !important;
-      margin: 0 auto 2% auto; }
+    padding-top: 30%; }
+    #welcome div {
+      padding: 0; }
+      #welcome div .intro h1 {
+        font-size: 4.1em !important;
+        margin-bottom: 2%; }
+      #welcome div .intro hr {
+        width: 65%; }
+      #welcome div .intro h2 {
+        font-size: 2em !important;
+        margin-bottom: 7% !important; }
+      #welcome div .intro h3 {
+        font-size: 1.4em !important;
+        line-height: 30px;
+        margin-bottom: 9% !important;
+        padding: 0 3%; }
+      #welcome div .intro div {
+        width: 100% !important;
+        border-radius: 0 !important;
+        margin-bottom: 10% !important; }
+      #welcome div .introChrome h1 {
+        font-size: 3.7em !important;
+        margin: 0 auto 2% auto; }
+
+  #bck #bckRotate img {
+    margin-left: -20%;
+    width: 1400px; }
 
   #video {
     background: url(../img/tech.jpg) no-repeat fixed 50% 50%/cover;
@@ -1286,25 +1321,39 @@ span {
   .logos {
     width: 90px; }
 
+  #home {
+    height: 780px; }
+
   #welcome {
     padding-top: 25%; }
-    #welcome div .panel .row .intro h1 {
-      font-size: 3em !important;
-      margin-bottom: 2%; }
-    #welcome div .panel .row .intro hr {
-      width: 80%; }
-    #welcome div .panel .row .intro h2 {
-      font-size: 1.6em !important; }
-    #welcome div .panel .row .intro h3 {
-      font-size: 1.3em !important;
-      line-height: 30px;
-      margin-bottom: 3% !important; }
-    #welcome div .panel .row .intro div {
-      width: 100% !important; }
-    #welcome div .panel .row .introChrome h1 {
-      width: 100%;
-      font-size: 8em !important;
-      margin: 0 auto 2% auto; }
+    #welcome div {
+      padding: 0; }
+      #welcome div .panel .row .intro h1 {
+        font-size: 4em !important;
+        margin-bottom: 5% !important; }
+      #welcome div .panel .row .intro hr {
+        width: 80%;
+        margin-bottom: 5% !important; }
+      #welcome div .panel .row .intro h2 {
+        font-size: 2em !important;
+        margin-bottom: 8% !important; }
+      #welcome div .panel .row .intro h3 {
+        font-size: 1.4em !important;
+        line-height: 30px;
+        margin-bottom: 5% !important;
+        padding: 0 3%; }
+      #welcome div .panel .row .intro div {
+        width: 100% !important;
+        border-radius: 0 !important;
+        margin-bottom: 14% !important; }
+      #welcome div .panel .row .introChrome h1 {
+        width: 100%;
+        font-size: 8em !important;
+        margin: 0 auto 2% auto; }
+
+  #bck #bckRotate img {
+    margin-left: -20%;
+    width: 1400px; }
 
   #video {
     height: 490px;
@@ -1374,37 +1423,29 @@ span {
     background: url(../img/img11.jpg) no-repeat fixed 50% 50%/cover;
     height: 830px;
     background-attachment: scroll;
-    padding: 24% 5% 0 5%; }
-    #clients h1 {
-      font-size: 1.6em !important; }
+    padding-top: 28%; }
+    #clients .row div h1 {
+      font-size: 2.1em !important; }
     #clients hr {
-      width: 50%;
-      margin-bottom: 3%; }
-    #clients p {
-      text-align: center;
-      font-size: 1.5em; }
-    #clients #clientInfo h2 {
-      font-size: 1.5em !important;
-      line-height: 20px !important; }
-    #clients #clientInfo li {
-      font-size: 1.3em !important; }
-    #clients #clientInfo #clientLogos h2 {
-      color: #2f9e48;
-      text-shadow: 0px 0px; }
-    #clients #clientInfo #clientLogos ul {
-      padding-left: 0 !important;
-      list-style: none;
-      width: 13%; }
-      #clients #clientInfo #clientLogos ul li {
-        color: white;
-        font-size: 2em;
-        width: 100%; }
-        #clients #clientInfo #clientLogos ul li img {
-          width: 100%; }
-    #clients #clientInfo #clientLogos ul:nth-child(2) li {
-      width: 25%; }
-      #clients #clientInfo #clientLogos ul:nth-child(2) li img {
-        width: 100%; }
+      margin-bottom: 3%;
+      width: 60%; }
+    #clients #clientInfo .panel {
+      padding: 0; }
+      #clients #clientInfo .panel div {
+        margin-bottom: 2% !important; }
+        #clients #clientInfo .panel div h2 {
+          margin-bottom: 2.5% !important;
+          line-height: 25px;
+          font-size: 1.5em; }
+        #clients #clientInfo .panel div hr {
+          margin-bottom: 2%;
+          width: 80%; }
+        #clients #clientInfo .panel div p {
+          font-size: 1.2em;
+          margin-bottom: 1%;
+          text-align: center; }
+      #clients #clientInfo .panel div:nth-child(2), #clients #clientInfo .panel div:nth-child(5) {
+        display: none; }
 
   #about {
     height: 500px; }
