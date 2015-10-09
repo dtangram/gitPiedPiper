@@ -742,6 +742,30 @@ span {
     #clients #clientInfo li {
       font-size: 1.7em !important; }
 
+  #product {
+    padding-top: 1%; }
+    #product #prodWrap h1 {
+      margin-bottom: 3%;
+      font-size: 5em; }
+    #product #prodWrap hr {
+      margin-bottom: 3%; }
+    #product #prodWrap .panel div div {
+      padding: 3% 5% 0 !important; }
+      #product #prodWrap .panel div div div:first-child {
+        width: 35%;
+        height: 30%;
+        margin: 0 auto 5%; }
+        #product #prodWrap .panel div div div:first-child img {
+          width: 100%; }
+      #product #prodWrap .panel div div h2 {
+        font-size: 2em;
+        margin-bottom: 3.5%; }
+      #product #prodWrap .panel div div hr {
+        margin-bottom: 3%;
+        width: 100%; }
+      #product #prodWrap .panel div div p {
+        font-size: 1.3em; }
+
   #about #aboutWrap {
     padding-top: 7%; }
     #about #aboutWrap h1 {
@@ -846,7 +870,7 @@ span {
     height: 100%;
     background-attachment: scroll;
     padding: 17% 5% 0 5%; }
-    #clients h1 {
+    #clients .row .intro h1 {
       font-size: 2em !important; }
     #clients #clientInfo h2 {
       font-size: 1.8em !important;
@@ -863,6 +887,30 @@ span {
       width: 20%; }
       #clients #clientInfo #clientLogos ul:nth-child(2) li img {
         width: 100%; }
+
+  #product {
+    padding-top: 2%; }
+    #product #prodWrap h1 {
+      color: white;
+      margin-bottom: 3%;
+      font-family: "Lato", sans-serif;
+      font-size: 2.5em; }
+    #product #prodWrap hr {
+      margin-bottom: 3%; }
+    #product #prodWrap .panel div div {
+      padding: 4% 5% 0 !important; }
+      #product #prodWrap .panel div div div:first-child {
+        width: 50%;
+        height: 34%;
+        margin-bottom: 2%; }
+      #product #prodWrap .panel div div h2 {
+        font-size: 1.6em;
+        margin-bottom: 3.5%; }
+      #product #prodWrap .panel div div hr {
+        margin-bottom: 3%;
+        width: 100%; }
+      #product #prodWrap .panel div div p {
+        font-size: 1.2em; }
 
   #about #aboutWrap {
     padding-top: 9%; }
@@ -985,8 +1033,8 @@ span {
     height: 900px;
     background-attachment: scroll;
     padding: 22% 5% 0 5%; }
-    #clients h1 {
-      font-size: 1.7em !important;
+    #clients .row .intro h1 {
+      font-size: 2.5em !important;
       margin-bottom: 3%; }
     #clients hr {
       width: 50%;
@@ -1014,6 +1062,30 @@ span {
       width: 15%; }
       #clients #clientInfo #clientLogos ul:nth-child(2) li img {
         width: 100%; }
+
+  #product {
+    padding-top: 2%; }
+    #product #prodWrap h1 {
+      color: white;
+      margin-bottom: 3%;
+      font-family: "Lato", sans-serif;
+      font-size: 2.5em; }
+    #product #prodWrap hr {
+      margin-bottom: 3%; }
+    #product #prodWrap .panel div div {
+      padding: 4% 5% 0 !important; }
+      #product #prodWrap .panel div div div:first-child {
+        width: 50%;
+        height: 28%;
+        margin-bottom: 2%; }
+      #product #prodWrap .panel div div h2 {
+        font-size: 1.6em;
+        margin-bottom: 3.5%; }
+      #product #prodWrap .panel div div hr {
+        margin-bottom: 3%;
+        width: 100%; }
+      #product #prodWrap .panel div div p {
+        font-size: 1.2em; }
 
   #about {
     height: 560px; }
@@ -1087,7 +1159,46 @@ span {
         #clients #clientInfo .panel div p {
           text-align: center; }
       #clients #clientInfo .panel div:nth-child(2), #clients #clientInfo .panel div:nth-child(5) {
-        display: none; } }
+        display: none; }
+
+  #product {
+    padding-top: 2%;
+    height: 1000px; }
+    #product #prodWrap {
+      padding: 0;
+      width: 100%; }
+      #product #prodWrap h1 {
+        color: white;
+        margin-bottom: 3%;
+        font-family: "Lato", sans-serif;
+        font-size: 2.5em; }
+      #product #prodWrap hr {
+        margin-bottom: 3%; }
+      #product #prodWrap .panel div.column, #product #prodWrap .panel div.columns {
+        padding: 0 !important; }
+      #product #prodWrap .panel div div.column, #product #prodWrap .panel div div.columns {
+        padding: 0 !important; }
+      #product #prodWrap .panel div div {
+        padding: 4% 5% 0 !important;
+        margin: 0;
+        height: auto;
+        border-left: 0;
+        border-right: 0; }
+        #product #prodWrap .panel div div div:first-child {
+          width: 20%;
+          height: 32%;
+          margin-bottom: 2%; }
+        #product #prodWrap .panel div div h2 {
+          font-size: 2em;
+          margin-bottom: 3.5%; }
+        #product #prodWrap .panel div div hr {
+          margin-bottom: 3%;
+          width: 50%; }
+        #product #prodWrap .panel div div p {
+          font-size: 1.5em;
+          text-align: center; }
+      #product #prodWrap .panel div:nth-child(2n + 1) div {
+        border: 0; } }
 @media only screen and (min-width: 321px) and (max-width: 500px) {
   .top-bar {
     width: 160px;
@@ -1214,7 +1325,7 @@ span {
     background-attachment: scroll;
     padding: 22% 5% 0 5%; }
     #clients h1 {
-      font-size: 1.7em !important;
+      font-size: 1em !important;
       margin-bottom: 3%; }
     #clients hr {
       width: 50%;
@@ -1246,21 +1357,44 @@ span {
         width: 100%; }
 
   #product {
-    background: #eeeeee;
-    border-bottom: 3px solid #2f9e48;
-    height: 350px;
-    padding-top: 8%; }
-    #product h2 {
-      font-size: 1.5em;
-      color: black;
-      margin-bottom: 3%; }
-    #product hr {
-      width: 50%; }
-    #product span {
-      color: #2f9e48;
-      font-size: .7em;
-      float: none;
-      text-align: center; }
+    padding-top: 2%;
+    height: 1000px; }
+    #product #prodWrap {
+      padding: 0;
+      width: 100%; }
+      #product #prodWrap h1 {
+        color: white;
+        margin-bottom: 3%;
+        font-family: "Lato", sans-serif;
+        font-size: 2.1em; }
+      #product #prodWrap hr {
+        margin-bottom: 4%;
+        width: 50%; }
+      #product #prodWrap .panel div.column, #product #prodWrap .panel div.columns {
+        padding: 0 !important; }
+      #product #prodWrap .panel div div.column, #product #prodWrap .panel div div.columns {
+        padding: 0 !important; }
+      #product #prodWrap .panel div div {
+        padding: 4% 5% 0 !important;
+        margin: 0;
+        height: auto;
+        border-left: 0;
+        border-right: 0; }
+        #product #prodWrap .panel div div div:first-child {
+          width: 30%;
+          height: 32%;
+          margin-bottom: 2%; }
+        #product #prodWrap .panel div div h2 {
+          font-size: 2em;
+          margin-bottom: 3.5%; }
+        #product #prodWrap .panel div div hr {
+          margin-bottom: 3%;
+          width: 50%; }
+        #product #prodWrap .panel div div p {
+          font-size: 1.5em;
+          text-align: center; }
+      #product #prodWrap .panel div:nth-child(2n + 1) div {
+        border: 0; }
 
   #about {
     height: 500px; }
@@ -1446,6 +1580,46 @@ span {
           text-align: center; }
       #clients #clientInfo .panel div:nth-child(2), #clients #clientInfo .panel div:nth-child(5) {
         display: none; }
+
+  #product {
+    padding-top: 2%;
+    height: 1000px; }
+    #product #prodWrap {
+      padding: 0;
+      width: 100%; }
+      #product #prodWrap h1 {
+        color: white;
+        margin-bottom: 3%;
+        font-family: "Lato", sans-serif;
+        font-size: 2.1em; }
+      #product #prodWrap hr {
+        margin-bottom: 4%;
+        width: 50%; }
+      #product #prodWrap .panel div.column, #product #prodWrap .panel div.columns {
+        padding: 0 !important; }
+      #product #prodWrap .panel div div.column, #product #prodWrap .panel div div.columns {
+        padding: 0 !important; }
+      #product #prodWrap .panel div div {
+        padding: 4% 5% 0 !important;
+        margin: 0;
+        height: auto;
+        border-left: 0;
+        border-right: 0; }
+        #product #prodWrap .panel div div div:first-child {
+          width: 40%;
+          height: 32%;
+          margin-bottom: 2%; }
+        #product #prodWrap .panel div div h2 {
+          font-size: 2em;
+          margin-bottom: 3.5%; }
+        #product #prodWrap .panel div div hr {
+          margin-bottom: 3%;
+          width: 70%; }
+        #product #prodWrap .panel div div p {
+          font-size: 1.5em;
+          text-align: center; }
+      #product #prodWrap .panel div:nth-child(2n + 1) div {
+        border: 0; }
 
   #about {
     height: 500px; }
