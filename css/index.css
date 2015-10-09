@@ -316,7 +316,7 @@ span {
 
 #companies {
   background-color: #2f9e48;
-  height: 620px;
+  height: 730px;
   padding-top: .5%;
   border-bottom: 4px solid white;
   border-top: 7px solid #0b492c; }
@@ -377,7 +377,7 @@ span {
 
 #clients {
   height: 950px;
-  padding-top: 8%; }
+  padding-top: 1%; }
   #clients h1 {
     margin-bottom: 2%;
     color: white;
