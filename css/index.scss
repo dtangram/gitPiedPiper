@@ -1025,17 +1025,6 @@ span
 		font-size: .9em !important;
 	}
 	
-	#video
-	{
-		background: url(../img/tech.jpg) no-repeat 50% 50% / cover;
-		height: 550px !important;
-	
-		#videoWrap
-		{
-			opacity: 0;
-		}
-	}
-	
 	#companies
 	{		
 		#compWrap
@@ -1077,16 +1066,47 @@ span
 	
 	#about
 	{
+		padding-top: 8%;
+		
 		#aboutWrap
 		{
-			padding-top: 3%;
+			padding-left: 7%;
 			
-			h1
+			div:nth-child(2n + 3)
 			{
-				font-size: 3em !important;
-				text-shadow: 1px .5px 2px $piperColor3;
+				margin-top: 5%;
 			}
-		}
+			
+			div:nth-child(3)
+			{
+				margin-right: 3% !important;
+			}
+			
+			div:nth-child(4)
+			{
+				margin-right: 6% !important;
+			}
+			
+			div:nth-child(5)
+			{
+				margin-right: 6% !important;
+			}
+			
+			div:nth-child(6)
+			{
+				margin-right: 7% !important;
+			}
+			
+			div:nth-child(7)
+			{
+				float: left;
+			}
+		}	
+	}
+	
+	.ieAbout
+	{
+		background: url(../img/img8.jpg) no-repeat fixed 70% 0% / cover;
 	}
 	
 	#contact
@@ -1192,16 +1212,63 @@ span
 	
 	#about
 	{
+		padding-top: 10%;
+		
 		#aboutWrap
 		{
-			padding-top: 4%;
+			padding-left: 2%;
 			
-			h1
+			div
 			{
-				font-size: 3em !important;
-				text-shadow: 1px .5px 2px $piperColor3;
+				> ul:nth-child(2)
+				{
+					li
+					{
+						p
+						{
+							font-size: .8em;
+							line-height: 17px;
+							text-align: left;
+						}
+					}
+				}
 			}
-		}
+			
+			div:nth-child(2n + 3)
+			{
+				margin-top: 5%;
+			}
+			
+			div:nth-child(3)
+			{
+				margin-right: 3% !important;
+			}
+			
+			div:nth-child(4)
+			{
+				margin-right: 4% !important;
+			}
+			
+			div:nth-child(5)
+			{
+				margin-right: 6% !important;
+			}
+			
+			div:nth-child(6)
+			{
+				margin-right: 7% !important;
+			}
+			
+			div:nth-child(7)
+			{
+				float: left;
+			}
+		}	
+	}
+	
+	.ieAbout
+	{
+		background: url(../img/img8.jpg) no-repeat fixed 70% 0% / cover;
 	}
 	
 	#contact
@@ -1453,16 +1520,75 @@ span
 	
 	#about
 	{
+		padding-top: 12%;
+		
 		#aboutWrap
 		{
-			padding-top: 7%;
+			padding-left: 3%;
 			
-			h1
+			div.row
 			{
-				font-size: 3em !important;
-				text-shadow: 1px .5px 2px $piperColor3;
+				width: $fullWH;
+				
+				.intro
+				{
+					width: $fullWH;
+					
+					h1
+					{
+						margin-bottom: 1%;
+						color: $piperColor2;
+						font-family: $piperFont2;
+						font-size: 5em;
+						text-shadow: 1px .5px 2px $piperColor3;
+					}
+				}
+			}		
+			
+			hr
+			{
+				margin-bottom: 4%;
 			}
-		}
+			
+			div
+			{
+				> ul:nth-child(2)
+				{
+					li
+					{
+						p
+						{
+							font-size: .8em;
+						}
+					}
+				}
+			}
+			
+			div:nth-child(2n + 3)
+			{
+				margin-top: 5%;
+			}
+			
+			div:nth-child(4)
+			{
+				margin-right: 3% !important;
+			}
+			
+			div:nth-child(5)
+			{
+				margin-right: 6% !important;
+			}
+			
+			div:nth-child(7)
+			{
+				float: left;
+			}
+		}	
+	}
+	
+	.ieAbout
+	{
+		background: url(../img/img8.jpg) no-repeat fixed 70% 0% / cover;
 	}
 	
 	#contact
