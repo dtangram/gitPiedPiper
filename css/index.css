@@ -872,7 +872,9 @@ span {
 
   #contact {
     height: 500px;
-    background-color: white !important; }
+    width: 100%;
+    float: left;
+    background-color: #666666; }
     #contact .row {
       max-width: 100%; }
       #contact .row #conWrapper {

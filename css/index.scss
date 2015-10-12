@@ -1666,7 +1666,9 @@ span
 	#contact
 	{
 		height: 500px;
-		background-color: $piperColor2 !important;
+		width: $fullWH;
+		float: $floatLeft;
+		background-color: $piperColor9;
 		
 		.row
 		{

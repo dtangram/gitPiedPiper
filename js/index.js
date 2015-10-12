@@ -310,7 +310,7 @@ $(document).ready(function()
 	
 	
 	
-	if(screen.width >= 800)
+	/*if(screen.width > 810)
 	{
 		titleA.hover(function()
 		{
@@ -323,7 +323,7 @@ $(document).ready(function()
 			$(this).find("img").animate({"opacity": "1"});		
 			$(this).find("li:last-child").animate({"opacity": "1"});
 		});
-	}
+	}*/
 	
 	
 	
