@@ -64,6 +64,7 @@ var titleOne = $("#about #aboutWrap div");
 var titleHR = $("#about #aboutWrap div ul hr");
 var titleTwo = $("#about #aboutWrap div ul li:last-child");
 var bio = $("#about #aboutWrap div > ul:last-child");
+var titleA = $("#about #aboutCon div ul:last-child");
 
 $(document).ready(function()
 {
@@ -291,6 +292,20 @@ $(document).ready(function()
 	{
 		$(this).find("ul li:first-child").next().hideToggle(300).next().hideToggle(300);
 		$(this).find("> ul:last-child").hideToggle(300);
+	});
+	
+	
+	
+	titleA.hover(function()
+	{
+		$(this).find("img").animate({"opacity": ".3"}, 500);		
+		$(this).find("li:last-child").animate({"opacity": "1"}, 500);
+	},
+	
+	function()
+	{
+		$(this).find("img").animate({"opacity": "1"}, 500);		
+		$(this).find("li:last-child").animate({"opacity": "0"}, 500);
 	});
 	
 	

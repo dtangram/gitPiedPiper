@@ -529,6 +529,8 @@ span {
   #about #aboutWrap div:nth-child(7) {
     float: right;
     margin-right: 0; }
+  #about #aboutCon {
+    display: none; }
 
 .aboutBck {
   background: url(../img/img8.jpg) no-repeat fixed 0% 0%/cover;
@@ -793,6 +795,7 @@ span {
         font-size: 1.3em; }
 
   #about {
+    height: 1100px;
     padding-top: 12%; }
     #about #aboutWrap {
       padding-left: 3%; }
@@ -807,23 +810,66 @@ span {
             font-size: 5em;
             text-shadow: 1px 0.5px 2px #0b492c; }
       #about #aboutWrap hr {
-        margin-bottom: 4%; }
-      #about #aboutWrap div > ul:nth-child(2) li p {
-        font-size: .8em; }
-      #about #aboutWrap div:nth-child(2n + 3) {
-        margin-top: 5%; }
-      #about #aboutWrap div:nth-child(4) {
-        margin-right: 3% !important; }
-      #about #aboutWrap div:nth-child(5) {
-        margin-right: 6% !important; }
-      #about #aboutWrap div:nth-child(7) {
-        float: left; }
+        margin-bottom: 34%; }
+      #about #aboutWrap div:nth-child(3), #about #aboutWrap div:nth-child(4), #about #aboutWrap div:nth-child(5), #about #aboutWrap div:nth-child(6), #about #aboutWrap div:nth-child(7) {
+        display: none; }
+    #about #aboutCon {
+      display: block;
+      padding-top: 6%;
+      background: white; }
+      #about #aboutCon div.column, #about #aboutCon div.columns {
+        padding: 0 !important; }
+      #about #aboutCon div ul {
+        list-style: none;
+        background-color: white !important;
+        width: 100%;
+        margin-left: 0 !important;
+        padding: 2%;
+        position: relative; }
+        #about #aboutCon div ul li {
+          text-align: center;
+          color: #0b492c; }
+        #about #aboutCon div ul :first-child {
+          font-weight: bold;
+          font-size: 1.1em;
+          margin-bottom: 1%;
+          text-transform: uppercase; }
+        #about #aboutCon div ul hr {
+          width: 80%;
+          height: 1px;
+          background: #0b492c;
+          border-color: #0b492c;
+          margin-bottom: 1%; }
+      #about #aboutCon div ul:last-child li:first-child {
+        background: black; }
+        #about #aboutCon div ul:last-child li:first-child img {
+          border: solid 1px #2f9e48;
+          margin-bottom: 0 !important;
+          cursor: pointer; }
+      #about #aboutCon div ul:last-child li:last-child {
+        opacity: 0;
+        position: absolute;
+        z-index: 1;
+        color: white;
+        font-size: 1em;
+        left: 0;
+        right: 0;
+        top: 0;
+        padding: 6%;
+        cursor: pointer; }
+        #about #aboutCon div ul:last-child li:last-child p {
+          text-transform: none !important; }
+      #about #aboutCon div:nth-child(4), #about #aboutCon div:nth-child(5) {
+        padding: 2% 8% !important; }
+      #about #aboutCon div:last-child {
+        float: left !important; }
 
   .ieAbout {
-    background: url(../img/img8.jpg) no-repeat fixed 70% 0%/cover; }
+    background: url(../img/img8.jpg) no-repeat 55% 0%/cover; }
 
   #contact {
-    height: 500px; }
+    height: 500px;
+    background: #666666; }
     #contact .row {
       max-width: 100%; }
       #contact .row #conWrapper {
