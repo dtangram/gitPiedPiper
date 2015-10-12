@@ -864,12 +864,15 @@ span {
       #about #aboutCon div:last-child {
         float: left !important; }
 
+  .aboutBck {
+    background: url(../img/img8.jpg) no-repeat 55% 0%/cover; }
+
   .ieAbout {
     background: url(../img/img8.jpg) no-repeat 55% 0%/cover; }
 
   #contact {
     height: 500px;
-    background: #666666; }
+    background-color: white !important; }
     #contact .row {
       max-width: 100%; }
       #contact .row #conWrapper {
@@ -1008,11 +1011,75 @@ span {
       #product #prodWrap .panel div div p {
         font-size: 1.2em; }
 
-  #about #aboutWrap {
-    padding-top: 9%; }
-    #about #aboutWrap h1 {
-      font-size: 2.5em !important;
-      text-shadow: 1px 0.5px 2px #0b492c; }
+  #about {
+    height: 1100px;
+    padding-top: 16%; }
+    #about #aboutWrap {
+      padding-left: 3%; }
+      #about #aboutWrap div.row {
+        width: 100%; }
+        #about #aboutWrap div.row .intro {
+          width: 100%; }
+          #about #aboutWrap div.row .intro h1 {
+            margin-bottom: 1%;
+            color: white;
+            font-family: "Lato", sans-serif;
+            font-size: 2.5em;
+            text-shadow: 1px 0.5px 2px #0b492c; }
+      #about #aboutWrap hr {
+        margin-bottom: 34%; }
+      #about #aboutWrap div:nth-child(3), #about #aboutWrap div:nth-child(4), #about #aboutWrap div:nth-child(5), #about #aboutWrap div:nth-child(6), #about #aboutWrap div:nth-child(7) {
+        display: none; }
+    #about #aboutCon {
+      display: block;
+      padding-top: 6%;
+      background: white; }
+      #about #aboutCon div.column, #about #aboutCon div.columns {
+        padding: 0 !important; }
+      #about #aboutCon div ul {
+        list-style: none;
+        background-color: white !important;
+        width: 100%;
+        margin-left: 0 !important;
+        padding: 2%;
+        position: relative; }
+        #about #aboutCon div ul li {
+          text-align: center;
+          color: #0b492c; }
+        #about #aboutCon div ul :first-child {
+          font-weight: bold;
+          font-size: 1.1em;
+          margin-bottom: 1%;
+          text-transform: uppercase; }
+        #about #aboutCon div ul hr {
+          width: 80%;
+          height: 1px;
+          background: #0b492c;
+          border-color: #0b492c;
+          margin-bottom: 1%; }
+      #about #aboutCon div ul:last-child {
+        height: 480px; }
+      #about #aboutCon div ul:last-child li:first-child img {
+        border: solid 1px #2f9e48;
+        margin-bottom: 0 !important; }
+      #about #aboutCon div ul:last-child li:last-child {
+        color: #2f9e48;
+        font-size: 1em;
+        padding: 6%;
+        background: #eeeeee !important; }
+        #about #aboutCon div ul:last-child li:last-child p {
+          text-transform: none !important;
+          font-size: .9em; }
+      #about #aboutCon div:nth-child(4), #about #aboutCon div:nth-child(5) {
+        padding: 2% 8% !important; }
+      #about #aboutCon div:last-child {
+        float: left !important; }
+
+  .aboutBck {
+    background: url(../img/img8.jpg) no-repeat 0% 12%/contain; }
+
+  .ieAbout {
+    background: url(../img/img8.jpg) no-repeat 0% 12%/contain; }
 
   #contact {
     height: 500px; }
@@ -1378,42 +1445,44 @@ span {
             height: 100%;
             cursor: pointer; }
 
-  #companies #compWrap {
-    padding-top: 0; }
-    #companies #compWrap .panel {
-      width: 100% !important; }
-      #companies #compWrap .panel h1 {
-        font-size: 2.1em;
-        margin-bottom: 5%; }
-      #companies #compWrap .panel hr {
-        margin-bottom: 5%;
-        width: 80%; }
-      #companies #compWrap .panel div {
-        margin: 0 auto 25% !important; }
-        #companies #compWrap .panel div ul {
-          text-align: center;
-          cursor: default;
+  #companies {
+    height: 630px; }
+    #companies #compWrap {
+      padding-top: 0; }
+      #companies #compWrap .panel {
+        width: 100% !important; }
+        #companies #compWrap .panel h1 {
+          font-size: 2.1em;
+          margin-bottom: 5%; }
+        #companies #compWrap .panel hr {
           margin-bottom: 5%;
-          float: none;
-          width: 40%;
-          padding-left: 3% !important; }
-          #companies #compWrap .panel div ul li {
-            font-size: 1em !important;
-            text-align: center !important; }
-            #companies #compWrap .panel div ul li img {
-              display: inline-block !important;
-              width: 100%; }
-          #companies #compWrap .panel div ul li:nth-child(2) {
-            display: none; }
-        #companies #compWrap .panel div ul:nth-child(1), #companies #compWrap .panel div ul:nth-child(2), #companies #compWrap .panel div ul:nth-child(3), #companies #compWrap .panel div ul:nth-child(4) {
-          float: left;
-          margin-right: 0; }
-        #companies #compWrap .panel div ul:nth-child(odd) {
-          margin-left: 10%; }
-        #companies #compWrap .panel div ul:nth-child(4) {
-          margin-left: 0; }
-      #companies #compWrap .panel div:last-child {
-        display: none; }
+          width: 80%; }
+        #companies #compWrap .panel div {
+          margin: 0 auto 25% !important; }
+          #companies #compWrap .panel div ul {
+            text-align: center;
+            cursor: default;
+            margin-bottom: 5%;
+            float: none;
+            width: 40%;
+            padding-left: 3% !important; }
+            #companies #compWrap .panel div ul li {
+              font-size: 1em !important;
+              text-align: center !important; }
+              #companies #compWrap .panel div ul li img {
+                display: inline-block !important;
+                width: 100%; }
+            #companies #compWrap .panel div ul li:nth-child(2) {
+              display: none; }
+          #companies #compWrap .panel div ul:nth-child(1), #companies #compWrap .panel div ul:nth-child(2), #companies #compWrap .panel div ul:nth-child(3), #companies #compWrap .panel div ul:nth-child(4) {
+            float: left;
+            margin-right: 0; }
+          #companies #compWrap .panel div ul:nth-child(odd) {
+            margin-left: 10%; }
+          #companies #compWrap .panel div ul:nth-child(4) {
+            margin-left: 0; }
+        #companies #compWrap .panel div:last-child {
+          display: none; }
 
   #clients {
     background: url(../img/img11.jpg) no-repeat fixed 50% 50%/cover;
@@ -1612,42 +1681,44 @@ span {
             height: 100%;
             cursor: pointer; }
 
-  #companies #compWrap {
-    padding-top: 6%; }
-    #companies #compWrap .panel {
-      width: 100% !important; }
-      #companies #compWrap .panel h1 {
-        font-size: 2.1em;
-        margin-bottom: 5%; }
-      #companies #compWrap .panel hr {
-        margin-bottom: 5%;
-        width: 80%; }
-      #companies #compWrap .panel div {
-        margin: 0 auto 25% !important; }
-        #companies #compWrap .panel div ul {
-          text-align: center;
-          cursor: default;
+  #companies {
+    height: 480px; }
+    #companies #compWrap {
+      padding-top: 6%; }
+      #companies #compWrap .panel {
+        width: 100% !important; }
+        #companies #compWrap .panel h1 {
+          font-size: 2.1em;
+          margin-bottom: 5%; }
+        #companies #compWrap .panel hr {
           margin-bottom: 5%;
-          float: none;
-          width: 40%;
-          padding-left: 3% !important; }
-          #companies #compWrap .panel div ul li {
-            font-size: 1em !important;
-            text-align: center !important; }
-            #companies #compWrap .panel div ul li img {
-              display: inline-block !important;
-              width: 100%; }
-          #companies #compWrap .panel div ul li:nth-child(2) {
-            display: none; }
-        #companies #compWrap .panel div ul:nth-child(1), #companies #compWrap .panel div ul:nth-child(2), #companies #compWrap .panel div ul:nth-child(3), #companies #compWrap .panel div ul:nth-child(4) {
-          float: left;
-          margin-right: 0; }
-        #companies #compWrap .panel div ul:nth-child(odd) {
-          margin-left: 10%; }
-        #companies #compWrap .panel div ul:nth-child(4) {
-          margin-left: 0; }
-      #companies #compWrap .panel div:last-child {
-        display: none; }
+          width: 80%; }
+        #companies #compWrap .panel div {
+          margin: 0 auto 25% !important; }
+          #companies #compWrap .panel div ul {
+            text-align: center;
+            cursor: default;
+            margin-bottom: 5%;
+            float: none;
+            width: 40%;
+            padding-left: 3% !important; }
+            #companies #compWrap .panel div ul li {
+              font-size: 1em !important;
+              text-align: center !important; }
+              #companies #compWrap .panel div ul li img {
+                display: inline-block !important;
+                width: 100%; }
+            #companies #compWrap .panel div ul li:nth-child(2) {
+              display: none; }
+          #companies #compWrap .panel div ul:nth-child(1), #companies #compWrap .panel div ul:nth-child(2), #companies #compWrap .panel div ul:nth-child(3), #companies #compWrap .panel div ul:nth-child(4) {
+            float: left;
+            margin-right: 0; }
+          #companies #compWrap .panel div ul:nth-child(odd) {
+            margin-left: 10%; }
+          #companies #compWrap .panel div ul:nth-child(4) {
+            margin-left: 0; }
+        #companies #compWrap .panel div:last-child {
+          display: none; }
 
   #clients {
     background: url(../img/img11.jpg) no-repeat fixed 50% 50%/cover;

@@ -310,6 +310,23 @@ $(document).ready(function()
 	
 	
 	
+	if(screen.width >= 800)
+	{
+		titleA.hover(function()
+		{
+			$(this).find("img").animate({"opacity": "1"});		
+			$(this).find("li:last-child").animate({"opacity": "1"});
+		},
+		
+		function()
+		{
+			$(this).find("img").animate({"opacity": "1"});		
+			$(this).find("li:last-child").animate({"opacity": "1"});
+		});
+	}
+	
+	
+	
 	/*LINKS IN MENU BAR ARE ACTIVE WHEN SCROLLED TO THEIR ANCHOR*/
 	$(window).scroll(function(event)
 	{		
