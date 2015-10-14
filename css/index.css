@@ -118,7 +118,7 @@ span {
           font-family: "Lato", sans-serif; }
         #home #homeWrap #welcome .panel .row .intro h3 {
           font-size: 2.1em;
-          margin: 0 auto 1% auto;
+          margin: 0 auto 1%;
           width: 100%;
           color: white;
           font-weight: bold;
@@ -126,7 +126,7 @@ span {
         #home #homeWrap #welcome .panel .row .intro :nth-child(5) {
           margin-bottom: 3%; }
         #home #homeWrap #welcome .panel .row .intro div {
-          margin: 0 auto 5% auto;
+          margin: 0 auto 5%;
           text-align: center;
           font-size: 1.6em;
           width: 22%;
@@ -168,75 +168,78 @@ span {
           #home #homeWrap #welcome .panel .row .intro #circles .previousCir {
             border: solid 2px white;
             background: transparent; }
-      #home #homeWrap #welcome .panel .row .introChrome h1 {
-        width: 100%;
-        margin: 0 auto 1% auto;
-        font-family: "Lato", sans-serif;
-        text-shadow: 1px 0.5px 2px #0b492c;
-        color: white; }
-      #home #homeWrap #welcome .panel .row .introChrome hr {
-        margin-bottom: 1%; }
-      #home #homeWrap #welcome .panel .row .introChrome h2 {
-        font-size: 2.7em;
-        width: 100%;
-        height: 30px;
-        font-weight: bold;
-        margin: 0 auto 3% auto;
-        color: white;
-        font-family: "Lato", sans-serif; }
-      #home #homeWrap #welcome .panel .row .introChrome h3 {
-        font-size: 1.9em;
-        margin: 0 auto 1% auto;
-        width: 100%;
-        color: white;
-        font-weight: bold;
-        font-family: "Lato", sans-serif; }
-      #home #homeWrap #welcome .panel .row .introChrome :nth-child(5) {
-        margin-bottom: 3%; }
-      #home #homeWrap #welcome .panel .row .introChrome div {
-        margin: 0 auto 5% auto;
-        text-align: center;
-        font-size: 1.6em;
-        width: 20%;
-        padding: 1%;
-        background-color: #0b492c;
-        border-radius: 8px;
-        -webkit-border-bottom-left-radius: 8px;
-        -webkit-border-top-left-radius: 8px;
-        border-bottom-left-radius: 8px;
-        border-top-left-radius: 8px;
-        cursor: pointer; }
-        #home #homeWrap #welcome .panel .row .introChrome div img {
-          width: 12%; }
-      #home #homeWrap #welcome .panel .row .introChrome div:hover {
-        background-color: #2f9e48; }
-      #home #homeWrap #welcome .panel .row .introChrome #circles {
-        list-style: none;
-        margin: 0 auto;
-        width: 22%;
-        padding-left: 8%; }
-        #home #homeWrap #welcome .panel .row .introChrome #circles li:hover {
-          background: #0b492c; }
-        #home #homeWrap #welcome .panel .row .introChrome #circles li {
-          margin: 0 auto;
-          width: 20px;
-          height: 20px;
-          border-radius: 10px;
-          border: solid 2px white;
-          background: transparent;
-          float: left;
+      #home #homeWrap #welcome .panel .row .introChrome {
+        padding-top: 6%;
+        text-align: center; }
+        #home #homeWrap #welcome .panel .row .introChrome h1 {
+          width: 100%;
+          margin: 0 auto 1%;
+          font-family: "Lato", sans-serif;
+          text-shadow: 1px 0.5px 2px #0b492c;
+          color: white; }
+        #home #homeWrap #welcome .panel .row .introChrome hr {
+          margin-bottom: 1%; }
+        #home #homeWrap #welcome .panel .row .introChrome h2 {
+          font-size: 2.7em;
+          width: 100%;
+          height: 30px;
+          font-weight: bold;
+          margin: 0 auto 3%;
+          color: white;
+          font-family: "Lato", sans-serif; }
+        #home #homeWrap #welcome .panel .row .introChrome h3 {
+          font-size: 1.9em;
+          margin: 0 auto 1%;
+          width: 100%;
+          color: white;
+          font-weight: bold;
+          font-family: "Lato", sans-serif; }
+        #home #homeWrap #welcome .panel .row .introChrome :nth-child(5) {
+          margin-bottom: 3%; }
+        #home #homeWrap #welcome .panel .row .introChrome div {
+          margin: 0 auto 5%;
+          text-align: center;
+          font-size: 1.6em;
+          width: 22%;
+          padding: 1% 1% 1% 0;
+          background-color: #0b492c;
+          border-radius: 8px;
+          -webkit-border-bottom-left-radius: 8px;
+          -webkit-border-top-left-radius: 8px;
+          border-bottom-left-radius: 8px;
+          border-top-left-radius: 8px;
           cursor: pointer; }
-        #home #homeWrap #welcome .panel .row .introChrome #circles li:nth-child(1), #home #homeWrap #welcome .panel .row .introChrome #circles li:nth-child(2), #home #homeWrap #welcome .panel .row .introChrome #circles li:nth-child(3) {
-          margin-right: 5%; }
-        #home #homeWrap #welcome .panel .row .introChrome #circles .currentCir:hover {
-          border: none;
-          background: white; }
-        #home #homeWrap #welcome .panel .row .introChrome #circles .currentCir {
-          border: none;
-          background: white; }
-        #home #homeWrap #welcome .panel .row .introChrome #circles .previousCir {
-          border: solid 2px white;
-          background: transparent; }
+          #home #homeWrap #welcome .panel .row .introChrome div img {
+            width: 12%; }
+        #home #homeWrap #welcome .panel .row .introChrome div:hover {
+          background-color: #2f9e48; }
+        #home #homeWrap #welcome .panel .row .introChrome #circles {
+          list-style: none;
+          width: 97px;
+          margin: 0 auto;
+          display: inline-block; }
+          #home #homeWrap #welcome .panel .row .introChrome #circles li:hover {
+            background: #0b492c; }
+          #home #homeWrap #welcome .panel .row .introChrome #circles li {
+            margin: 0 auto;
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            border: solid 2px white;
+            background: transparent;
+            float: left;
+            cursor: pointer; }
+          #home #homeWrap #welcome .panel .row .introChrome #circles li:nth-child(1), #home #homeWrap #welcome .panel .row .introChrome #circles li:nth-child(2), #home #homeWrap #welcome .panel .row .introChrome #circles li:nth-child(3) {
+            margin-right: 5%; }
+          #home #homeWrap #welcome .panel .row .introChrome #circles .currentCir:hover {
+            border: none;
+            background: white; }
+          #home #homeWrap #welcome .panel .row .introChrome #circles .currentCir {
+            border: none;
+            background: white; }
+          #home #homeWrap #welcome .panel .row .introChrome #circles .previousCir {
+            border: solid 2px white;
+            background: transparent; }
   #home #bck {
     position: fixed;
     z-index: -1;
@@ -573,16 +576,14 @@ span {
         color: white; }
 
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
-  .intro div {
-    width: 24% !important; }
-
-  .introChrome h1 {
-    width: 100%;
-    font-size: 8em !important;
-    margin: 0 auto 2% auto; }
-
   #welcome {
     font-size: .9em !important; }
+    #welcome .panel .row .intro div {
+      width: 24% !important; }
+    #welcome .panel .row .introChrome div {
+      width: 24% !important; }
+    #welcome .panel .row .introChrome #circles {
+      padding-left: 6% !important; }
 
   #companies #compWrap .panel h1 {
     font-size: 4.5em; }
@@ -627,15 +628,23 @@ span {
         height: 100%;
         padding-top: 8%; } }
 @media only screen and (min-width: 1060px) and (max-width: 1200px) {
-  .intro div {
-    width: 26% !important; }
-
-  .introChrome h1 {
-    width: 100%;
-    font-size: 8em !important; }
-
   #welcome {
     font-size: .9em !important; }
+    #welcome .panel .row .intro div {
+      width: 26% !important; }
+    #welcome .panel .row .introChrome h1 {
+      font-size: 6em !important;
+      margin-bottom: 2%; }
+    #welcome .panel .row .introChrome h2 {
+      font-size: 3em !important; }
+    #welcome .panel .row .introChrome h3 {
+      font-size: 2.3em !important;
+      line-height: 35px;
+      margin-bottom: 3% !important; }
+    #welcome .panel .row .introChrome div {
+      width: 30% !important; }
+    #welcome .panel .row #circles {
+      padding-left: 5% !important; }
 
   #video {
     background: url(../img/tech.jpg) no-repeat 50% 50%/cover;
@@ -697,22 +706,29 @@ span {
         padding-top: 8%; } }
 @media only screen and (min-width: 801px) and (max-width: 1059px) {
   #welcome {
-    padding-top: 8%; }
-    #welcome .intro h1 {
+    padding-top: 3%; }
+    #welcome .panel .row .intro h1 {
       font-size: 6em !important;
       margin-bottom: 2%; }
-    #welcome .intro h2 {
+    #welcome .panel .row .intro h2 {
       font-size: 2.5em !important; }
-    #welcome .intro h3 {
+    #welcome .panel .row .intro h3 {
       font-size: 2em !important;
       line-height: 35px;
       margin-bottom: 3% !important; }
-    #welcome .intro div {
+    #welcome .panel .row .intro div {
       width: 40% !important; }
-    #welcome .introChrome h1 {
-      width: 100%;
-      font-size: 8em !important;
-      margin: 0 auto 2% auto; }
+    #welcome .panel .row .introChrome h1 {
+      font-size: 6em !important;
+      margin-bottom: 2%; }
+    #welcome .panel .row .introChrome h2 {
+      font-size: 2.5em !important; }
+    #welcome .panel .row .introChrome h3 {
+      font-size: 2em !important;
+      line-height: 35px;
+      margin-bottom: 3% !important; }
+    #welcome .panel .row .introChrome div {
+      width: 40% !important; }
 
   #video {
     background: url(../img/tech.jpg) no-repeat 50% 50%/cover;
@@ -745,7 +761,7 @@ span {
   #companies #compWrap {
     padding-top: 5%; }
     #companies #compWrap .panel h1 {
-      font-size: 3.2em;
+      font-size: 4em;
       margin-bottom: 5%; }
     #companies #compWrap .panel hr {
       margin-bottom: 5%; }
@@ -766,7 +782,7 @@ span {
   #clients {
     padding: 13.5% 5% 0 5%; }
     #clients h1 {
-      font-size: 2.5em !important; }
+      font-size: 4em !important; }
     #clients #clientInfo h2 {
       font-size: 2em !important; }
     #clients #clientInfo li {
@@ -809,7 +825,7 @@ span {
             margin-bottom: 1%;
             color: white;
             font-family: "Lato", sans-serif;
-            font-size: 5em;
+            font-size: 4em;
             text-shadow: 1px 0.5px 2px #0b492c; }
       #about #aboutWrap hr {
         margin-bottom: 34%; }
@@ -874,15 +890,28 @@ span {
 
   #contact {
     height: 500px;
-    width: 100%;
+    border-top: 8px solid #2f9e48;
+    background-color: #666666;
     float: left;
-    background-color: #666666; }
-    #contact .row {
-      max-width: 100%; }
-      #contact .row #conWrapper {
-        width: 100%;
-        height: 100%;
-        padding-top: 8%; } }
+    width: 100%; }
+    #contact #conWrapper {
+      padding-top: 1%;
+      width: 100%; }
+      #contact #conWrapper .row {
+        max-width: 100%;
+        height: 100%; }
+        #contact #conWrapper .row h1 {
+          margin-bottom: 1%;
+          font-size: 4em; }
+      #contact #conWrapper hr {
+        margin-bottom: 5%; }
+      #contact #conWrapper h2 {
+        font-size: 1.5em; }
+      #contact #conWrapper form {
+        width: 50%;
+        margin: 0 auto; }
+        #contact #conWrapper form label {
+          color: white; } }
 @media only screen and (min-width: 684px) and (max-width: 800px) {
   .top-bar {
     width: 450px;
@@ -915,9 +944,14 @@ span {
     #welcome .intro div {
       width: 46% !important; }
     #welcome .introChrome h1 {
-      width: 100%;
       font-size: 8em !important;
-      margin: 0 auto 2% auto; }
+      margin-bottom: 2%; }
+    #welcome .introChrome h3 {
+      font-size: 2em !important;
+      line-height: 35px;
+      margin-bottom: 3% !important; }
+    #welcome .introChrome div {
+      width: 50% !important; }
 
   #video {
     background: url(../img/tech.jpg) no-repeat 50% 50%/cover;
@@ -1091,15 +1125,29 @@ span {
 
   #contact {
     height: 500px;
-    width: 100%;
+    border-top: 8px solid #2f9e48;
+    background-color: #666666;
     float: left;
-    background-color: #666666; }
-    #contact .row {
-      max-width: 100%; }
-      #contact .row #conWrapper {
-        width: 100%;
-        height: 100%;
-        padding-top: 8%; } }
+    width: 100%; }
+    #contact #conWrapper {
+      padding-top: 1%;
+      width: 100%; }
+      #contact #conWrapper .row {
+        max-width: 100%;
+        height: 100%; }
+        #contact #conWrapper .row h1 {
+          margin-bottom: 1%;
+          font-size: 2.5em; }
+      #contact #conWrapper hr {
+        margin-bottom: 5%;
+        width: 50%; }
+      #contact #conWrapper h2 {
+        font-size: 1.5em; }
+      #contact #conWrapper form {
+        width: 50%;
+        margin: 0 auto; }
+        #contact #conWrapper form label {
+          color: white; } }
 @media only screen and (min-width: 501px) and (max-width: 684px) {
   .top-bar {
     width: 330px; }
@@ -1145,9 +1193,15 @@ span {
         width: 50% !important;
         font-size: 2em !important; }
       #home #homeWrap #welcome .introChrome h1 {
-        width: 100%;
         font-size: 8em !important;
-        margin: 0 auto 2% auto; }
+        margin-bottom: 2%; }
+      #home #homeWrap #welcome .introChrome h3 {
+        font-size: 2.5em !important;
+        line-height: 35px;
+        margin-bottom: 3% !important; }
+      #home #homeWrap #welcome .introChrome div {
+        width: 60% !important;
+        font-size: 2em !important; }
     #home #homeWrap #bck #bckRotate {
       display: none; }
 
@@ -1335,24 +1389,29 @@ span {
 
   #contact {
     height: 500px;
-    width: 100%;
+    border-top: 8px solid #2f9e48;
+    background-color: #666666;
     float: left;
-    background-color: #666666; }
-    #contact .row {
-      max-width: 100%; }
-      #contact .row #conWrapper {
-        width: 100%;
-        height: 100%;
-        padding-top: 12%; }
-        #contact .row #conWrapper .panel {
-          width: 100%;
-          padding-bottom: 3%; }
-          #contact .row #conWrapper .panel p {
-            font-size: 1.3em; }
-          #contact .row #conWrapper .panel #conIcons {
-            font-size: 1em; }
-          #contact .row #conWrapper .panel p:nth-child(2) {
-            border: 0; } }
+    width: 100%; }
+    #contact #conWrapper {
+      padding-top: 1%;
+      width: 100%; }
+      #contact #conWrapper .row {
+        max-width: 100%;
+        height: 100%; }
+        #contact #conWrapper .row h1 {
+          margin-bottom: 1%;
+          font-size: 2.5em; }
+      #contact #conWrapper hr {
+        margin-bottom: 5%;
+        width: 50%; }
+      #contact #conWrapper h2 {
+        font-size: 1.5em; }
+      #contact #conWrapper form {
+        width: 50%;
+        margin: 0 auto; }
+        #contact #conWrapper form label {
+          color: white; } }
 @media only screen and (max-width: 40em) {
   #companies #compWrap {
     padding-top: 10%; }
@@ -1518,7 +1577,9 @@ span {
   #contact {
     height: 400px;
     border-top: 8px solid #2f9e48;
-    background-color: #666666; }
+    background-color: #666666;
+    float: left;
+    width: 100%; }
     #contact #conWrapper {
       padding-top: 1%;
       width: 100%; }
@@ -1589,8 +1650,22 @@ span {
         border-radius: 0 !important;
         margin-bottom: 10% !important; }
       #welcome div .introChrome h1 {
-        font-size: 3.7em !important;
-        margin: 0 auto 2% auto; }
+        font-size: 4.1em !important;
+        margin-bottom: 2%; }
+      #welcome div .introChrome hr {
+        width: 65%; }
+      #welcome div .introChrome h2 {
+        font-size: 2em !important;
+        margin-bottom: 7% !important; }
+      #welcome div .introChrome h3 {
+        font-size: 1.4em !important;
+        line-height: 30px;
+        margin-bottom: 9% !important;
+        padding: 0 3%; }
+      #welcome div .introChrome div {
+        width: 100% !important;
+        border-radius: 0 !important;
+        margin-bottom: 10% !important; }
 
   #bck #bckRotate img {
     margin-left: -20%;
@@ -1899,10 +1974,27 @@ span {
         width: 100% !important;
         border-radius: 0 !important;
         margin-bottom: 14% !important; }
-      #welcome div .panel .row .introChrome h1 {
-        width: 100%;
-        font-size: 8em !important;
-        margin: 0 auto 2% auto; }
+      #welcome div .panel .row .introChrome {
+        padding-top: 25% !important; }
+        #welcome div .panel .row .introChrome h1 {
+          font-size: 2em !important;
+          margin-bottom: 5% !important; }
+        #welcome div .panel .row .introChrome hr {
+          width: 80%;
+          margin-bottom: 5% !important; }
+        #welcome div .panel .row .introChrome h2 {
+          font-size: 1.5em !important;
+          margin-bottom: 8% !important; }
+        #welcome div .panel .row .introChrome h3 {
+          font-size: 1.4em !important;
+          line-height: 30px;
+          margin-bottom: 5% !important;
+          padding: 0 3%; }
+        #welcome div .panel .row .introChrome div {
+          width: 100% !important;
+          border-radius: 0 !important;
+          margin-bottom: 14% !important;
+          font-size: 1.5em !important; }
 
   #bck #bckRotate img {
     margin-left: -20%;

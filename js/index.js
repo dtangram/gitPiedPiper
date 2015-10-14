@@ -88,6 +88,7 @@ $(document).ready(function()
 	
 	if (navigator.userAgent.indexOf('Chrome') != -1)
 	{
+		$("#home").css("height", "950px");
 		$("#welcome div div.panel div.row div.intro").addClass("introChrome").removeClass("intro");
 		$("#homeWrap").css("background-color", "rgba(47, 158, 72, .4)");
 	}
@@ -310,23 +311,6 @@ $(document).ready(function()
 	
 	
 	
-	/*if(screen.width > 810)
-	{
-		titleA.hover(function()
-		{
-			$(this).find("img").animate({"opacity": "1"});		
-			$(this).find("li:last-child").animate({"opacity": "1"});
-		},
-		
-		function()
-		{
-			$(this).find("img").animate({"opacity": "1"});		
-			$(this).find("li:last-child").animate({"opacity": "1"});
-		});
-	}*/
-	
-	
-	
 	/*LINKS IN MENU BAR ARE ACTIVE WHEN SCROLLED TO THEIR ANCHOR*/
 	$(window).scroll(function(event)
 	{		
@@ -353,7 +337,7 @@ $(document).ready(function()
 			linkContact.removeClass('currentLink');
 			$("#bck, .intro div, #circles").stop().fadeOut({"opacity": "0"}, 1000);
 			$("#bckChrome").stop().fadeOut({"opacity": "0"}, 1000);
-			$("#compWrap").stop().animate({"opacity": "1", "margin-top": "0"}, 500);
+			$("#compWrap").stop().animate({"opacity": "1", "margin-top": "0"}, 300);
 			$("#clientInfo").stop().animate({"opacity": "1"}, 700);
 		}
 		
@@ -399,7 +383,7 @@ $(document).ready(function()
 		linkAbout.removeClass("currentLink");
 		linkContact.removeClass("currentLink");
 		$("#bck, .intro div, #circles").stop().fadeOut({"opacity": "0"}, 1000);
-		$("#compWrap").stop().fadeIn({"opacity": "1", "margin-top": "0"}, 500);
+		$("#compWrap").stop().fadeIn({"opacity": "1", "margin-top": "0"}, 300);
 	});
 	
 	linkAbout.click(function()
