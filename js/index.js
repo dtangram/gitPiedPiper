@@ -88,7 +88,6 @@ $(document).ready(function()
 	
 	if (navigator.userAgent.indexOf('Chrome') != -1)
 	{
-		$("#home").css("height", "950px");
 		$("#welcome div div.panel div.row div.intro").addClass("introChrome").removeClass("intro");
 		$("#homeWrap").css("background-color", "rgba(47, 158, 72, .4)");
 	}
