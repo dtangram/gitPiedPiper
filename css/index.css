@@ -643,8 +643,6 @@ span {
       margin-bottom: 3% !important; }
     #welcome .panel .row .introChrome div {
       width: 30% !important; }
-    #welcome .panel .row #circles {
-      padding-left: 5% !important; }
 
   #video {
     background: url(../img/tech.jpg) no-repeat 50% 50%/cover;
@@ -932,6 +930,9 @@ span {
   .slideUnder:after {
     display: none; }
 
+  #home {
+    height: 680px; }
+
   #welcome {
     padding-top: 8%; }
     #welcome .intro h1 {
@@ -952,6 +953,14 @@ span {
       margin-bottom: 3% !important; }
     #welcome .introChrome div {
       width: 50% !important; }
+
+  #bck #bckRotate img {
+    margin-left: -20%;
+    width: 1212px; }
+
+  #bckChrome img {
+    margin-left: -20%;
+    width: 1212px; }
 
   #video {
     background: url(../img/tech.jpg) no-repeat 50% 50%/cover;
@@ -1177,8 +1186,8 @@ span {
   .title-area {
     background: none !important; }
 
-  #home #homeWrap {
-    background-color: rgba(47, 158, 72, 0.4) !important; }
+  #home {
+    height: 680px; }
     #home #homeWrap #welcome {
       font-size: .7em !important;
       padding-top: 15%; }
@@ -1202,8 +1211,14 @@ span {
       #home #homeWrap #welcome .introChrome div {
         width: 60% !important;
         font-size: 2em !important; }
-    #home #homeWrap #bck #bckRotate {
-      display: none; }
+
+  #bck #bckRotate img {
+    margin-left: -20%;
+    width: 1212px; }
+
+  #bckChrome img {
+    margin-left: -20%;
+    width: 1212px; }
 
   #video {
     background: url(../img/tech.jpg) no-repeat fixed 50% 50%/cover;
@@ -1626,7 +1641,7 @@ span {
     background: none !important; }
 
   #home {
-    height: 780px; }
+    height: 680px; }
 
   #welcome {
     padding-top: 30%; }
@@ -1669,11 +1684,11 @@ span {
 
   #bck #bckRotate img {
     margin-left: -20%;
-    width: 1400px; }
+    width: 1212px; }
 
   #bckChrome img {
     margin-left: -20%;
-    width: 1400px; }
+    width: 1212px; }
 
   #video {
     background: url(../img/tech.jpg) no-repeat fixed 50% 50%/cover;
@@ -1954,7 +1969,7 @@ span {
     width: 90px; }
 
   #home {
-    height: 780px; }
+    height: 600px; }
 
   #welcome {
     padding-top: 25%; }
@@ -2002,7 +2017,11 @@ span {
 
   #bck #bckRotate img {
     margin-left: -20%;
-    width: 1400px; }
+    width: 1070px; }
+
+  #bckChrome img {
+    margin-left: -20%;
+    width: 1070px; }
 
   #video {
     height: 490px;
