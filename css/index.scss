@@ -817,7 +817,7 @@ span
 	height: 950px;
 	
 	#aboutWrap
-	{		
+	{
 		div.row
 		{
 			width: $fullWH;
@@ -928,8 +928,13 @@ span
 		
 		div:nth-child(7)
 		{
-			float: right;
+			float: $floatRight;
 			margin-right: 0;
+		}
+		
+		div:nth-child(8)
+		{
+			display: none;
 		}
 	}
 	
@@ -1703,11 +1708,6 @@ span
 				}
 			}
 			
-			div:nth-child(4), div:nth-child(5)
-			{
-				padding: 2% 8% !important;
-			}
-			
 			div:last-child
 			{
 				float: $floatLeft !important;
@@ -2223,24 +2223,6 @@ span
 						font-size: .9em;
 					}					
 				}
-			}
-			
-			div:nth-child(3)
-			{
-				ul:last-child li:last-child
-				{
-					display: none;			
-				}
-			}
-			
-			div:nth-child(4), div:nth-child(5)
-			{
-				padding: 2% 8% !important;
-			}
-			
-			div:last-child
-			{
-				float: $floatLeft !important;
 			}
 		}
 	}
@@ -2792,24 +2774,6 @@ span
 					}					
 				}
 			}
-			
-			div:nth-child(3)
-			{
-				ul:last-child li:last-child
-				{
-					display: none;			
-				}
-			}
-			
-			div:nth-child(4), div:nth-child(5)
-			{
-				padding: 2% 8% !important;
-			}
-			
-			div:last-child
-			{
-				float: $floatLeft !important;
-			}
 		}
 	}
 	
@@ -3193,19 +3157,6 @@ span
 						font-size: .9em;
 					}					
 				}
-			}
-			
-			div:nth-child(3)
-			{
-				ul:last-child li:last-child
-				{
-					display: none;			
-				}
-			}
-			
-			div:last-child
-			{
-				float: $floatLeft !important;
 			}
 		}
 	}
@@ -3828,19 +3779,6 @@ span
 						font-size: .9em;
 					}					
 				}
-			}
-			
-			div:nth-child(3)
-			{
-				ul:last-child li:last-child
-				{
-					display: none;			
-				}
-			}
-			
-			div:last-child
-			{
-				float: $floatLeft !important;
 			}
 		}
 	}
@@ -4471,19 +4409,25 @@ span
 						font-size: .9em;
 					}					
 				}
-			}
-			
-			div:nth-child(3)
-			{
+				
 				ul:last-child li:last-child
 				{
-					display: none;			
+					color: $piperColor4;
+					font-size: 1em;
+					padding: 6%;
+					background: $piperColor5 !important;
+					
+					p
+					{
+						text-transform: none !important;
+						font-size: .9em;
+					}					
 				}
 			}
 			
-			div:last-child
+			div:nth-child(5)
 			{
-				float: $floatLeft !important;
+				margin-bottom: 20% !important;
 			}
 		}
 	}

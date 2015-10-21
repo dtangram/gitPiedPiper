@@ -532,6 +532,8 @@ span {
   #about #aboutWrap div:nth-child(7) {
     float: right;
     margin-right: 0; }
+  #about #aboutWrap div:nth-child(8) {
+    display: none; }
   #about #aboutCon {
     display: none; }
   #about #aboutCon2 {
@@ -875,8 +877,6 @@ span {
         cursor: pointer; }
         #about #aboutCon div ul:last-child li:last-child p {
           text-transform: none !important; }
-      #about #aboutCon div:nth-child(4), #about #aboutCon div:nth-child(5) {
-        padding: 2% 8% !important; }
       #about #aboutCon div:last-child {
         float: left !important; }
 
@@ -1119,12 +1119,6 @@ span {
         #about #aboutCon2 div ul:last-child li:last-child p {
           text-transform: none !important;
           font-size: .9em; }
-      #about #aboutCon2 div:nth-child(3) ul:last-child li:last-child {
-        display: none; }
-      #about #aboutCon2 div:nth-child(4), #about #aboutCon2 div:nth-child(5) {
-        padding: 2% 8% !important; }
-      #about #aboutCon2 div:last-child {
-        float: left !important; }
 
   .aboutBck {
     background: url(../img/img8.jpg) no-repeat 0% 12%/contain; }
@@ -1389,12 +1383,6 @@ span {
         #about #aboutCon2 div ul:last-child li:last-child p {
           text-transform: none !important;
           font-size: .9em; }
-      #about #aboutCon2 div:nth-child(3) ul:last-child li:last-child {
-        display: none; }
-      #about #aboutCon2 div:nth-child(4), #about #aboutCon2 div:nth-child(5) {
-        padding: 2% 8% !important; }
-      #about #aboutCon2 div:last-child {
-        float: left !important; }
 
   .aboutBck {
     background: url(../img/img8.jpg) no-repeat 0% 12%/contain; }
@@ -1578,10 +1566,6 @@ span {
           #about #aboutCon2 div ul:last-child li:last-child p {
             text-transform: none !important;
             font-size: .9em; }
-      #about #aboutCon2 div:nth-child(3) ul:last-child li:last-child {
-        display: none; }
-      #about #aboutCon2 div:last-child {
-        float: left !important; }
 
   .aboutBck {
     background: url(../img/img8.jpg) no-repeat 0% 21%/contain; }
@@ -1895,10 +1879,6 @@ span {
           #about #aboutCon2 div ul:last-child li:last-child p {
             text-transform: none !important;
             font-size: .9em; }
-      #about #aboutCon2 div:nth-child(3) ul:last-child li:last-child {
-        display: none; }
-      #about #aboutCon2 div:last-child {
-        float: left !important; }
 
   .aboutBck {
     background: url(../img/img8.jpg) no-repeat 0% 21%/contain; }
@@ -2219,10 +2199,16 @@ span {
           #about #aboutCon2 div ul:last-child li:last-child p {
             text-transform: none !important;
             font-size: .9em; }
-      #about #aboutCon2 div:nth-child(3) ul:last-child li:last-child {
-        display: none; }
-      #about #aboutCon2 div:last-child {
-        float: left !important; }
+        #about #aboutCon2 div ul:last-child li:last-child {
+          color: #2f9e48;
+          font-size: 1em;
+          padding: 6%;
+          background: #eeeeee !important; }
+          #about #aboutCon2 div ul:last-child li:last-child p {
+            text-transform: none !important;
+            font-size: .9em; }
+      #about #aboutCon2 div:nth-child(5) {
+        margin-bottom: 20% !important; }
 
   .aboutBck {
     background: url(../img/img8.jpg) no-repeat 0% 21%/contain; }
