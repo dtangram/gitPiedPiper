@@ -554,10 +554,16 @@ span {
 #contact {
   height: 495px;
   border-top: 8px solid #2f9e48;
-  background-color: #666666; }
+  background-color: black;
+  position: relative; }
   #contact #conWrapper {
     padding-top: 1%;
-    width: 100%; }
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
     #contact #conWrapper .row {
       max-width: 100%;
       height: 100%; }
@@ -576,6 +582,11 @@ span {
       margin: 0 auto; }
       #contact #conWrapper form label {
         color: white; }
+  #contact #map_canvas {
+    opacity: .3;
+    width: 1900px;
+    height: 485px;
+    border: solid 2px #000000; }
 
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
   #welcome {

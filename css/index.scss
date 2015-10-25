@@ -971,12 +971,18 @@ span
 {
 	height: 495px;
 	border-top: 8px solid $piperColor4;
-	background-color: $piperColor9;
+	background-color: $piperColor1;
+	position: relative;
 		
 	#conWrapper
 	{
 		padding-top: 1%;
 		width: $fullWH;
+		position: absolute;
+		z-index: 1;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
 		
 		.row
 		{
@@ -1013,6 +1019,14 @@ span
 				color: $piperColor2;
 			}
 		}
+	}
+	
+	#map_canvas
+	{
+		opacity: .3;
+		width: 1900px;
+		height: 485px;
+		border: solid 2px #000000;
 	}
 }
 
