@@ -15,7 +15,7 @@
 	<script src="js/vendor/modernizr.js"></script>
     
     <!-- MAP API -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBs5kEAPmFYvA5zOq5YyV71XdwyOzADrdw&sensor=true"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
     
     <script type="text/javascript">
         function showError(error)
@@ -66,7 +66,7 @@
 		
 			var map = new google.maps.Map(document.getElementById('map_canvas'),
 			{
-				center: new google.maps.LatLng(37.6, -120.8),
+				center: new google.maps.LatLng(37.5, -120),
 				zoom: 9,
 				mapTypeId: google.maps.MapTypeId.HYBRID,
 				panControl: true,
@@ -82,98 +82,25 @@
 				rotateControl: true
 			});
 			
-			downloadUrl(url, function(data)
+			var latNlong = new google.maps.LatLng(37.47, -122.35);
+			
+			var marker = new google.maps.Marker(
 			{
-				var markers = data.documentElement.getElementsByTagName("marker");
-			 
-				for (var i = 0; i < markers.length; i++)
-				{				
-					var latlng = new google.maps.LatLng(parseFloat(markers[i].getAttribute("lat")), parseFloat(markers[i].getAttribute("lng")));
-					var date = markers[i].getAttribute("date");
-						var type = markers[i].getAttribute("type");
-					
-					var marker = createMarker(markers[i].getAttribute("date"), latlng);
-				}
-				
-				function createMarker(date, latlng)
-				{
-					var marker = new google.maps.Marker(
-					{
-						position: latlng,
-						map: map, 
-						title: 'Pied Piper',
-						icon: 'img/favicon.png'
-					});
-					
-					google.maps.event.addListener(marker, "click", function()
-					{
-						infowin = new google.maps.InfoWindow(
-						{
-							content: date
-						});
-						
-						infowin.open(map, marker);
-					});
-					
-					return marker;
-				}
-				
-				var types = data.documentElement.getElementsByTagName("marker");
-			 
-				for (var j = 0; j < types.length; j++)
-				{
-					var present = new google.maps.LatLng(types[j].getAttribute("type"));
-					var date = types[j].getAttribute("date");
-					
-					var present = new google.maps.Marker(
-					{
-						position: latlng,
-						map: map, 
-						title: 'Pied Piper',
-						icon: present[j] = 'img/favicon.png'
-					});
-					
-					google.maps.event.addListener(present, "click", function()
-					{
-						if(infowindow) infowindow.close();
-						if(infowin) infowin.close();
-						if(iw) iw.close();
-						
-						infowindow = new google.maps.InfoWindow(
-						{
-							content: date
-						});
-						
-						infowindow.open(map, present);
-					});
-				}
-				
-				var latNlong1={lat: 37.6, long: -120.8};
-				var point1 = new google.maps.LatLng(latNlong1.lat, latNlong1.long);
-				
-				var marker1 = new google.maps.Marker(
-				{
-					position: point1,
-					map: map, 
-					title: 'Pied Piper',
-					icon: 'img/favicon.png'
-				});
-				
-				var contentstring = "<div style='color: #000000';>Pied Piper</div>";
-		
-				iw = new google.maps.InfoWindow(
-				{
-					content: contentstring
-				})
-				
-				google.maps.event.addListener(marker1, 'click', function()
-				{
-					if(iw) iw.close();
-					if(infowin) infowin.close();
-					if(infowindow) infowindow.close();
-					
-					iw.open(map, marker1);
-				});
+				position: latNlong,
+				map: map,
+				title:'Pied Piper',
+				icon: 'img/favicon.png'
+			});  
+		 
+			var contentString = 'PIED PIPER';
+			var infowindow = new google.maps.InfoWindow(
+			{
+				content: contentString
+			});
+		 
+			google.maps.event.addListener(marker, 'click', function()
+			{
+				infowindow.open(map,marker);
 			});
 		}
 	
@@ -181,7 +108,7 @@
 	</script>
   </head>
   
-  <body>
+  <body onload="initialize()">
 	<header id="header1">
     	<div class="logos large-3 medium-3 small-3 columns"><a href="index.html"><img src="img/logo.png" title="Pied Piper Data Compression" alt="Pied Piper Data Compression" border="0"></a></div>
                 
@@ -623,7 +550,7 @@
     
     
     <!--CONTACT-->
-    <section id="contact" onload="initialize()">
+    <section id="contact">
     	<div id="conWrapper" class="row">
 			<div class="row">
             	<div class="large-12 columns intro">
