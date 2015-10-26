@@ -969,20 +969,20 @@ span
 
 #contact
 {
-	height: 495px;
+	height: 780px;
+	min-height: 780px;
 	border-top: 8px solid $piperColor4;
-	background-color: $piperColor1;
-	position: relative;
+	background: $piperColor9 !important;
+	
+	#map_canvas
+	{
+		width: $fullWH;
+		height: 40%;
+	}
 		
 	#conWrapper
 	{
-		padding-top: 1%;
 		width: $fullWH;
-		position: absolute;
-		z-index: 1;
-		left: 0;
-		right: 0;
-		margin: 0 auto;
 		
 		.row
 		{
@@ -1012,20 +1012,25 @@ span
 		form
 		{
 			width: 50%;
-			margin: 0 auto;
+			margin: 0 auto 1%;
 			
 			label
 			{
 				color: $piperColor2;
 			}
 		}
-	}
-	
-	#map_canvas
-	{
-		opacity: .3;
-		width: $fullWH;
-		height: $fullWH;
+		
+		#copyRight
+		{
+			width: $fullWH;
+			text-align: center;
+			color: $piperColor2;
+			
+			p
+			{
+				font-size: 1em;
+			}
+		}
 	}
 }
 

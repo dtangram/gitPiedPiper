@@ -552,18 +552,15 @@ span {
   border-bottom: 3px solid #2f9e48; }
 
 #contact {
-  height: 495px;
+  height: 780px;
+  min-height: 780px;
   border-top: 8px solid #2f9e48;
-  background-color: black;
-  position: relative; }
-  #contact #conWrapper {
-    padding-top: 1%;
+  background: #666666 !important; }
+  #contact #map_canvas {
     width: 100%;
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    right: 0;
-    margin: 0 auto; }
+    height: 40%; }
+  #contact #conWrapper {
+    width: 100%; }
     #contact #conWrapper .row {
       max-width: 100%;
       height: 100%; }
@@ -579,13 +576,15 @@ span {
       font-size: 1.9em; }
     #contact #conWrapper form {
       width: 50%;
-      margin: 0 auto; }
+      margin: 0 auto 1%; }
       #contact #conWrapper form label {
         color: white; }
-  #contact #map_canvas {
-    opacity: .3;
-    width: 100%;
-    height: 100%; }
+    #contact #conWrapper #copyRight {
+      width: 100%;
+      text-align: center;
+      color: white; }
+      #contact #conWrapper #copyRight p {
+        font-size: 1em; }
 
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
   #welcome {
