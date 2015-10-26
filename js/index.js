@@ -222,33 +222,6 @@ $(document).ready(function()
 	
 	
 	
-	$(".intro div, .introChrome div").click(function()
-	{
-		$("#homeVideo").animate({"z-index": "999"}, 0,
-		function()
-		{
-			$("#homeVideo").animate({"opacity": "1"}, 500);
-		});
-		
-		$("#closeBTN").animate({"z-index": "9999"}, 0,
-		function()
-		{
-			$("#closeBTN").animate({"opacity": "1"}, 500);
-		});
-	});	
-	
-	$("#closeBTN").click(function()
-	{
-		$("#closeBTN, #homeVideo").animate({"opacity": "0", "z-index": "-1"}, 500)
-		$("video").each(function()
-		{
-			this.pause();
-			$("video").currentTime = 0;
-		});
-	});
-	
-	
-	
 	compWrap.hover(function()
 	{
 		$(this).find("+ li").stop().animate({"opacity": "0"}, 200);

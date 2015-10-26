@@ -213,6 +213,7 @@ span
 							margin: 0 auto 5%;
 							text-align: center;
 							font-size: 1.6em;
+							color: $piperColor2;
 							width: 22%;
 							padding: 1% 1% 1% 0;
 							background-color: $piperColor3;
@@ -978,6 +979,7 @@ span
 	{
 		width: $fullWH;
 		height: 40%;
+		border-bottom: 3px solid $piperColor2;
 	}
 		
 	#conWrapper
