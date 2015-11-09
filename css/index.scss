@@ -333,6 +333,7 @@ span
 							margin: 0 auto 5%;
 							text-align: center;
 							font-size: 1.6em;
+							color: $piperColor2;
 							width: 22%;
 							padding: 1% 1% 1% 0;
 							background-color: $piperColor3;
@@ -629,7 +630,7 @@ span
 				
 				span
 				{
-					color: $piperColor3;
+					color: $piperColor1;
 					font-size: 2em;
 				}
 			}
@@ -639,7 +640,7 @@ span
 
 #clients
 {
-	height: 950px;
+	height: 900px;
 	padding-top: 1%;
 	
 	h1
@@ -711,6 +712,7 @@ span
 .safClients
 {
 	background: url(../img/img11.jpg) no-repeat;
+	background-attachment: scroll;
 	border-bottom: 3px solid $piperColor4;
 }
 
@@ -815,7 +817,7 @@ span
 #about
 {
 	padding-top: 8%;
-	height: 950px;
+	height: 900px;
 	
 	#aboutWrap
 	{

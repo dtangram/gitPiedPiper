@@ -89,7 +89,6 @@ $(document).ready(function()
 	if (navigator.userAgent.indexOf('Chrome') != -1)
 	{
 		$("#welcome div div.panel div.row div.intro").addClass("introChrome").removeClass("intro");
-		$("#homeWrap").css("background-color", "rgba(47, 158, 72, .4)");
 	}
 	
 	if (navigator.userAgent.indexOf('Firefox') != -1 || navigator.userAgent.indexOf('Chrome') != -1 || navigator.userAgent.indexOf('Opera') != -1)

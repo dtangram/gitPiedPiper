@@ -201,6 +201,7 @@ span {
           margin: 0 auto 5%;
           text-align: center;
           font-size: 1.6em;
+          color: white;
           width: 22%;
           padding: 1% 1% 1% 0;
           background-color: #0b492c;
@@ -376,11 +377,11 @@ span {
           color: black;
           line-height: 50px; }
         #companies #compWrap .panel div span {
-          color: #0b492c;
+          color: black;
           font-size: 2em; }
 
 #clients {
-  height: 950px;
+  height: 900px;
   padding-top: 1%; }
   #clients h1 {
     margin-bottom: 2%;
@@ -415,6 +416,7 @@ span {
 
 .safClients {
   background: url(../img/img11.jpg) no-repeat;
+  background-attachment: scroll;
   border-bottom: 3px solid #2f9e48; }
 
 .ieClients {
@@ -472,7 +474,7 @@ span {
 
 #about {
   padding-top: 8%;
-  height: 950px; }
+  height: 900px; }
   #about #aboutWrap div.row {
     width: 100%; }
     #about #aboutWrap div.row .intro {
