@@ -208,25 +208,30 @@ span
 							margin-bottom: 3%;
 						}
 						
-						div
+						a
 						{
-							margin: 0 auto 5%;
-							text-align: center;
-							font-size: 1.6em;
-							color: $piperColor2;
-							width: 22%;
-							padding: 1% 1% 1% 0;
-							background-color: $piperColor3;
-							border-radius: 8px;
-							-webkit-border-bottom-left-radius: 8px;
-							-webkit-border-top-left-radius: 8px;
-							border-bottom-left-radius: 8px;
-							border-top-left-radius: 8px;
-							cursor: pointer;
+							cursor: default;
 							
-							img
+							div
 							{
-								width: 12%;
+								margin: 0 auto 5%;
+								text-align: center;
+								font-size: 1.6em;
+								color: $piperColor2;
+								width: 22%;
+								padding: 1% 1% 1% 0;
+								background-color: $piperColor3;
+								border-radius: 8px;
+								-webkit-border-bottom-left-radius: 8px;
+								-webkit-border-top-left-radius: 8px;
+								border-bottom-left-radius: 8px;
+								border-top-left-radius: 8px;
+								cursor: pointer;
+								
+								img
+								{
+									width: 12%;
+								}
 							}
 						}
 						
@@ -1895,10 +1900,13 @@ span
 	
 	#bckChrome
 	{
-		img
+		#bckRotateChrome
 		{
-			margin-left: -20%;
-			width: 1212px;
+			img
+			{
+				margin-left: -20%;
+				width: 1212px;
+			}
 		}
 	}
 	
@@ -2266,7 +2274,14 @@ span
 		background-color: $piperColor9;
 		float: $floatLeft;
 		width: $fullWH;
-			
+		
+		#map_canvas
+		{
+			width: 85%;
+			border: 3px solid $piperColor2;
+			margin: 4% auto 0;
+		}
+		
 		#conWrapper
 		{
 			padding-top: 1%;
@@ -2427,10 +2442,13 @@ span
 	
 	#bckChrome
 	{
-		img
+		#bckRotateChrome
 		{
-			margin-left: -20%;
-			width: 1212px;
+			img
+			{
+				margin-left: -20%;
+				width: 1212px;
+			}
 		}
 	}
 	
@@ -2816,6 +2834,13 @@ span
 		background-color: $piperColor9;
 		float: $floatLeft;
 		width: $fullWH;
+		
+		#map_canvas
+		{
+			width: 85%;
+			border: 3px solid $piperColor2;
+			margin: 5% auto 0;
+		}
 			
 		#conWrapper
 		{
@@ -3200,6 +3225,13 @@ span
 		background-color: $piperColor9;
 		float: $floatLeft;
 		width: $fullWH;
+		
+		#map_canvas
+		{
+			width: 85%;
+			border: 3px solid $piperColor2;
+			margin: 5% auto 0;
+		}
 			
 		#conWrapper
 		{
@@ -3381,10 +3413,13 @@ span
 	
 	#bckChrome
 	{
-		img
+		#bckRotateChrome
 		{
-			margin-left: -20%;
-			width: 1212px;
+			img
+			{
+				margin-left: -20%;
+				width: 1212px;
+			}
 		}
 	}
 	
@@ -3822,6 +3857,13 @@ span
 		background-color: $piperColor9;
 		float: left;
 		width: $fullWH;
+		
+		#map_canvas
+		{
+			width: 85%;
+			border: 3px solid $piperColor2;
+			margin: 5% auto 0;
+		}
 			
 		#conWrapper
 		{
@@ -4031,10 +4073,13 @@ span
 	
 	#bckChrome
 	{
-		img
+		#bckRotateChrome
 		{
-			margin-left: -20%;
-			width: 1070px;
+			img
+			{
+				margin-left: -20%;
+				width: 1070px;
+			}
 		}
 	}
 	
@@ -4470,6 +4515,13 @@ span
 		border-top: 8px solid $piperColor4;
 		background-color: $piperColor9;
 		float: left;
+		
+		#map_canvas
+		{
+			width: 85%;
+			border: 3px solid $piperColor2;
+			margin: 5% auto 0;
+		}
 			
 		#conWrapper
 		{
