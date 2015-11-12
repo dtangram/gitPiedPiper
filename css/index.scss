@@ -3129,6 +3129,11 @@ span
 			}
 		}
 		
+		#aboutCon
+		{
+			display: none;
+		}
+		
 		#aboutCon2
 		{
 			display: block;
@@ -3142,7 +3147,7 @@ span
 			
 			div
 			{
-				height: 880px;
+				margin-bottom: 60%;
 				
 				ul
 				{
@@ -3163,7 +3168,6 @@ span
 					{
 						font-weight: $piperFontBold;
 						font-size: 1.3em;
-						margin-bottom: 1%;
 						text-transform: uppercase;
 					}
 					
@@ -3175,11 +3179,6 @@ span
 						border-color: $piperColor3;
 						margin-bottom: 1%;
 					}
-				}
-				
-				ul:last-child
-				{
-					height: 480px;
 				}
 				
 				ul:last-child li:first-child
@@ -3754,11 +3753,11 @@ span
 			{
 				margin-bottom: 34%;
 			}
-			
-			div:nth-child(3), div:nth-child(4), div:nth-child(5), div:nth-child(6), div:nth-child(7)
-			{
-				display: none;
-			}
+		}
+		
+		#aboutCon
+		{
+			display: none;
 		}
 		
 		#aboutCon2
@@ -3774,7 +3773,7 @@ span
 			
 			div
 			{
-				height: 880px;
+				margin-bottom: 20%;
 				
 				ul
 				{
@@ -3795,7 +3794,6 @@ span
 					{
 						font-weight: $piperFontBold;
 						font-size: 1.3em;
-						margin-bottom: 1%;
 						text-transform: uppercase;
 					}
 					
@@ -3807,11 +3805,6 @@ span
 						border-color: $piperColor3;
 						margin-bottom: 1%;
 					}
-				}
-				
-				ul:last-child
-				{
-					height: 480px;
 				}
 				
 				ul:last-child li:first-child
@@ -4394,11 +4387,11 @@ span
 				margin-bottom: 34%;
 				width: 50%;
 			}
-			
-			div:nth-child(3), div:nth-child(4), div:nth-child(5), div:nth-child(6), div:nth-child(7)
-			{
-				display: none;
-			}
+		}
+		
+		#aboutCon
+		{
+			display: none;
 		}
 		
 		#aboutCon2
@@ -4414,7 +4407,7 @@ span
 			
 			div
 			{
-				height: 600px;
+				margin-bottom: 20%;
 				
 				ul
 				{
@@ -4435,7 +4428,6 @@ span
 					{
 						font-weight: $piperFontBold;
 						font-size: 1.3em;
-						margin-bottom: 1%;
 						text-transform: uppercase;
 					}
 					
@@ -4447,19 +4439,13 @@ span
 						border-color: $piperColor3;
 						margin-bottom: 1%;
 					}
-				}
-				
-				ul:last-child
-				{
-					height: 480px;
-				}
+				}				
 				
 				ul:last-child li:first-child
 				{
 					img
 					{
 						border: solid 1px $piperColor4;
-						margin-bottom: 0 !important;
 					}
 				}
 				
@@ -4490,11 +4476,6 @@ span
 						font-size: .9em;
 					}					
 				}
-			}
-			
-			div:nth-child(5)
-			{
-				margin-bottom: 20% !important;
 			}
 		}
 	}
